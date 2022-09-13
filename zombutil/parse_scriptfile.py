@@ -81,10 +81,7 @@ def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict:
             with open(filename) as file:
                 # Read and concatenate this scriptfile as a json object.
                 file_as_json = parse_scriptfile_contents_as_json(file.read())
-                huge_json_object = {
-                    key: value for (key, value) in
-                    (huge_json_object.items() + file_as_json.items())
-                }
+                huge_json_object = {**huge_json_object, **file_as_json}
     """
 
     json_string = _pretend_its_json(_strip_comments(scriptfile))
