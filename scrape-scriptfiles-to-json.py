@@ -79,8 +79,21 @@ def main():
 
             # We have a list of all .txt scriptfiles, scrape them now!
             for scriptfile in scriptfiles:
+                if scriptfile.name in [
+                    'GunFighter_Sounds.txt',
+                    '2022_02_16_List of Armor.txt',
+                    'Beret.txt',
+                    'Jur.txt',
+                    'ammomaker_items.txt',
+                    'ammomaker_recipes.txt',
+                    'ambc_recipes.txt'
+                ]:
+                    # These files are hard and/or broken
+                    continue
+
                 with scriptfile.open() as scriptfile:
                     # Parse and append a single scriptfile
+                    print(f'Parsing {scriptfile.name} to JSON!')
                     as_json = parse_scriptfile_contents_as_json(scriptfile.read())
                     parsed_script_objects = {**parsed_script_objects, **as_json}
 

@@ -1,15 +1,23 @@
 import json
 import re
+import sys
 from typing import Dict
 
 
 def _strip_comments(scriptfile: str) -> str:
     """Strip any /* comments */ from the input, and return it."""
-    return re.sub(
-        r'/\*.+\*/',
+    scriptfile = re.sub(
+        r'/\*.+?\*/',
+        '',
+        scriptfile,
+        flags=re.DOTALL
+    )
+    scriptfile = re.sub(
+        r'-----+',
         '',
         scriptfile
     )
+    return scriptfile
 
 
 def _pretend_its_json(scriptfile: str) -> str:
@@ -25,15 +33,30 @@ def _pretend_its_json(scriptfile: str) -> str:
 
     # We use `module Base` as the root object
     scriptfile = re.sub(
-        r'module Base',
+        r'module \w+',
         '',
+        scriptfile
+    )
+
+    # Escape instances of `"`
+    scriptfile = re.sub(
+        r'"',
+        '\\"',
+        scriptfile
+    )
+
+    # Seems like `;` is the list separator character. Make lists on one line,
+    # like in GunFighter_Reloading_Items.txt, and sort it out later.
+    scriptfile = re.sub(
+        r';\s*?\n',
+        ';',
         scriptfile
     )
 
     # Turn `item foo { ... }` into `"item foo": { ... },`
     scriptfile = re.sub(
         r'\s*\b(.+?)\s*\n?\s*{',
-        r'''"\1": {''',
+        r'''"\1": {\n''',
         scriptfile
     )
     scriptfile = re.sub(
@@ -42,10 +65,18 @@ def _pretend_its_json(scriptfile: str) -> str:
         scriptfile
     )
 
-    # Turn `fieldname = value,` into `"fieldname": "value",`
+    # Turn `fieldname = value,` or `fieldname:value,` into `"fieldname": "value",`
     scriptfile = re.sub(
-        r'(\w+)\s*[:=]\s*(.+?)\s*,',
-        r'"\1": "\2",',
+        r'\s*\b(.+?)\s*[:=]\s*(.+?)\s*([,}])',
+        r'"\1": "\2"\3',
+        scriptfile
+    )
+
+    # Turn `Bolt_Bear_Pack,` into `Bolt_Bear_Pack: true`
+    # Check Bolt_Bear.txt in Brita's Weapon Pack for this use case.
+    scriptfile = re.sub(
+        r'\n\s*([^:}]+?)\s*,',
+        r'"\1": true,',
         scriptfile
     )
 
@@ -57,7 +88,18 @@ def _pretend_its_json(scriptfile: str) -> str:
         scriptfile
     )
 
+    # Get rid of empty commas (why do these exist??)
+    scriptfile = re.sub(
+        r',\s*,',
+        ',',
+        scriptfile
+    )
+
     scriptfile = scriptfile.strip()
+
+    if len(scriptfile) <= 1:
+        # This is an empty JSON string by now. Weird.
+        scriptfile = '{}'
 
     if scriptfile[-1] == ',':
         # Get rid of the trailing comma after the root element
@@ -85,5 +127,11 @@ def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict:
     """
 
     json_string = _pretend_its_json(_strip_comments(scriptfile))
-    json_dict = json.loads(json_string)
+    json_dict = {}
+
+    try:
+        json_dict = json.loads(json_string)
+    except json.decoder.JSONDecodeError as e:
+        breakpoint()
+        print(f'Failed to parse file as JSON! {e}', file=sys.stderr)
     return json_dict
