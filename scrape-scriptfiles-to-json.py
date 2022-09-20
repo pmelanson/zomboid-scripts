@@ -1,7 +1,9 @@
 #!/bin/python3
 
 import argparse
+import csv
 import json
+from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List
 
@@ -22,6 +24,111 @@ parser.add_argument(
     '-d', '--workshop_dir',
     help='Path to the workshop directory of zomboid mods'
 )
+
+GUN_COLUMN_NAMES = [
+    'DisplayName', 'AttachmentType', 'AmmoType', 'MagazineType', 'MaxAmmo',
+    'MinDamage', 'MaxDamage', 'HitChance', 'CriticalChance',
+    'CritDmgMultiplier', 'AimingPerkHitChanceModifier',
+    'AimingPerkCritModifier', 'ProjectileCount', 'PiercingBullets',
+    'MaxHitCount', 'JamGunChance', 'AimingTime', 'ReloadTime',
+    'SoundVolume', 'SoundRadius',
+]
+
+MELEE_COLUMN_NAMES = [
+    'DisplayName', 'Categories', 'MaxDamage', 'MinDamage', 'MinRange',
+    'MaxRange', 'CriticalChance', 'MinimumSwingTime', 'SwingAnim',
+    'KnockdownMod', 'Tags',
+]
+
+CLOTHING_COLUMN_NAMES = [
+    'DisplayName', 'BodyLocation', 'BiteDefense',
+    'RunSpeedModifier', 'CombatSpeedModifier', 'Insulation',
+    'NeckProtectionModifier', 'Weight',
+]
+
+BAG_COLUMN_NAMES = [
+    'DisplayName', 'CanBeEquipped', 'Capacity', 'WeightReduction',
+    'RunSpeedModifier', 'clothingExtraSubmenu', 'BodyLocation',
+    'Weight',
+]
+
+
+def _group_into_spreadsheets(json_data: Dict) -> Dict:
+    """
+    Do stuff like split weapons into 5.56, .44, .45 ACP, 9mm etc.
+    Filter only stuff we care about.
+    """
+
+    grouped_dict = defaultdict(list)
+
+    item_list = json_data['item']
+
+    for pz_item in item_list:
+        # "10gShotgunShells": {"Count": 5, [..]}
+        assert len(pz_item.items()) == 1
+        pz_item_name = list(pz_item.keys())[0]
+        pz_item_data = list(pz_item.values())[0]
+
+        try:
+            pz_item_type = pz_item_data['Type']
+        except KeyError:
+            print(f'{pz_item_name} has no Type, skipping')
+            continue
+
+        if pz_item_type == 'Weapon':
+            if 'AmmoType' in pz_item_data:
+                # Group weapons by caliber.
+                pz_item_type = pz_item_data['AmmoType'].replace('Base.', '') + ' gun'
+            else:
+                pz_item_type = 'Melee'
+
+        elif pz_item_type == 'Container' and 'CanBeEquipped' in pz_item_data:
+            # Split bags out.
+            pz_item_type = 'Bag'
+
+        elif pz_item_type == 'Clothing':
+            # Split clothing out as well.
+            pass
+
+        else:
+            # This is an item we don't care about. Skip!
+            continue
+
+        grouped_dict[pz_item_type].append({pz_item_name: pz_item_data})
+
+    return grouped_dict
+
+
+def _dump_json_into_csvs(json_data: Dict):
+    """
+    Given a JSON dump, split it out into some .csvs in the csv-dump/ subdir.
+    """
+    grouped_data = _group_into_spreadsheets(json_data)
+
+    dump_dir = Path('csv-dump')
+    dump_dir.mkdir(exist_ok=True)
+
+    for pz_item_type, pz_items in grouped_data.items():
+        with Path(dump_dir / f'{pz_item_type}.csv').open('w') as csv_file:
+            print(f'Writing {csv_file.name}!')
+            fieldnames: List[str]
+
+            if 'gun' in pz_item_type:
+                fieldnames = GUN_COLUMN_NAMES
+            elif pz_item_type == 'Melee':
+                fieldnames = MELEE_COLUMN_NAMES
+            elif pz_item_type == 'Clothing':
+                fieldnames = CLOTHING_COLUMN_NAMES
+            elif pz_item_type == 'Bag':
+                fieldnames = BAG_COLUMN_NAMES
+
+            writer = csv.DictWriter(
+                csv_file, fieldnames=fieldnames, extrasaction='ignore'
+            )
+            writer.writeheader()
+
+            for pz_item in pz_items:
+                writer.writerow(list(pz_item.values())[0])
 
 
 def _get_scripts_from_moddir(mod_dir: Path) -> List[Path]:
@@ -51,13 +158,12 @@ def _get_scripts_from_moddir(mod_dir: Path) -> List[Path]:
 def main():
     args = parser.parse_args()
 
-    parsed_script_objects: Dict = {}
+    parsed_script_objects = defaultdict(list)
 
     if args.scriptfile:
         with Path(args.scriptfile).open() as scriptfile:
             # Parse and append a single scriptfile
-            as_json = parse_scriptfile_contents_as_json(scriptfile.read())
-            parsed_script_objects = {**parsed_script_objects, **as_json}
+            parsed_script_objects = parse_scriptfile_contents_as_json(scriptfile.read())
     if args.workshop_dir:
         with Path(args.workshop_dir) as top_level_dir:
 
@@ -79,26 +185,29 @@ def main():
 
             # We have a list of all .txt scriptfiles, scrape them now!
             for scriptfile in scriptfiles:
-                if scriptfile.name in [
+                for blacklist in [
                     'GunFighter_Sounds.txt',
                     '2022_02_16_List of Armor.txt',
                     'Beret.txt',
                     'Jur.txt',
                     'ammomaker_items.txt',
                     'ammomaker_recipes.txt',
-                    'ambc_recipes.txt'
+                    'ambc_recipes.txt',
+                    'tsarslib',
                 ]:
-                    # These files are hard and/or broken
-                    continue
+                    if blacklist in scriptfile.parts:
+                        # These files are hard and/or broken
+                        continue
 
                 with scriptfile.open() as scriptfile:
                     # Parse and append a single scriptfile
                     print(f'Parsing {scriptfile.name} to JSON!')
                     as_json = parse_scriptfile_contents_as_json(scriptfile.read())
-                    parsed_script_objects = {**parsed_script_objects, **as_json}
+                    for entity_type, entities in as_json.items():
+                        parsed_script_objects[entity_type].extend(entities)
 
-    # Just dump all the JSON for now.
-    print(json.dumps(parsed_script_objects, sort_keys=True, indent=4))
+    # Write various .csvs
+    _dump_json_into_csvs(parsed_script_objects)
 
 
 if __name__ == '__main__':

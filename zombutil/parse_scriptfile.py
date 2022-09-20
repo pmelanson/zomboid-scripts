@@ -2,6 +2,7 @@ import json
 import re
 import sys
 from typing import Dict
+from collections import defaultdict
 
 
 def _strip_comments(scriptfile: str) -> str:
@@ -108,6 +109,28 @@ def _pretend_its_json(scriptfile: str) -> str:
     return scriptfile
 
 
+def _cleanup_json(json_obj: Dict) -> Dict:
+    """
+    Tidies up the resulting JSON a little, group stuff like Items together.
+    """
+    grouped_dict = defaultdict(list)
+
+    for key, pz_entity_data in json_obj.items():
+        if key == 'imports':
+            continue  # Don't care
+
+        # In "fixing Fix 10855_Silver", the first word is the entity type and
+        # the last is the specific name.
+        pz_entity_type, *_, pz_entity_name = key.split(' ')
+
+        if pz_entity_type in ['model', 'sound',]:
+            continue  # Don't care
+
+        grouped_dict[pz_entity_type].append({pz_entity_name: pz_entity_data})
+
+    return grouped_dict
+
+
 def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict:
     """
     Takes a string of the entire contents of a scriptfile, and massages it into
@@ -132,6 +155,7 @@ def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict:
     try:
         json_dict = json.loads(json_string)
     except json.decoder.JSONDecodeError as e:
-        breakpoint()
         print(f'Failed to parse file as JSON! {e}', file=sys.stderr)
-    return json_dict
+
+    tidied_json = _cleanup_json(json_dict)
+    return tidied_json
