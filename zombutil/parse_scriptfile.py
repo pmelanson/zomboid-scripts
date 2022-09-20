@@ -109,11 +109,11 @@ def _pretend_its_json(scriptfile: str) -> str:
     return scriptfile
 
 
-def _cleanup_json(json_obj: Dict) -> Dict:
+def _cleanup_json(json_obj: Dict) -> Dict[str, Dict[str, Dict]]:
     """
     Tidies up the resulting JSON a little, group stuff like Items together.
     """
-    grouped_dict = defaultdict(list)
+    grouped_dict: Dict[str, Dict[str, Dict]] = defaultdict(dict)
 
     for key, pz_entity_data in json_obj.items():
         if key == 'imports':
@@ -123,15 +123,15 @@ def _cleanup_json(json_obj: Dict) -> Dict:
         # the last is the specific name.
         pz_entity_type, *_, pz_entity_name = key.split(' ')
 
-        if pz_entity_type in ['model', 'sound',]:
+        if pz_entity_type in ['model', 'sound', ]:
             continue  # Don't care
 
-        grouped_dict[pz_entity_type].append({pz_entity_name: pz_entity_data})
+        grouped_dict[pz_entity_type][pz_entity_name] = pz_entity_data
 
     return grouped_dict
 
 
-def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict:
+def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict[str, Dict[str, Dict]]:
     """
     Takes a string of the entire contents of a scriptfile, and massages it into
     a JSON format before parsing it and returning it as a dict.

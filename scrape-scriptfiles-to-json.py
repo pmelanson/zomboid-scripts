@@ -52,22 +52,20 @@ BAG_COLUMN_NAMES = [
     'Weight',
 ]
 
+DUMP_DIR = Path('csv-dump')
 
-def _group_into_spreadsheets(json_data: Dict) -> Dict:
+
+def _group_into_spreadsheets(json_data: Dict[str, Dict[str, Dict]]) -> Dict[str, Dict[str, Dict]]:
     """
     Do stuff like split weapons into 5.56, .44, .45 ACP, 9mm etc.
     Filter only stuff we care about.
     """
 
-    grouped_dict = defaultdict(list)
+    grouped_dict: Dict[str, Dict[str, Dict]] = defaultdict(dict)
+    item_dict = json_data['item']
 
-    item_list = json_data['item']
-
-    for pz_item in item_list:
+    for pz_item_name, pz_item_data in item_dict.items():
         # "10gShotgunShells": {"Count": 5, [..]}
-        assert len(pz_item.items()) == 1
-        pz_item_name = list(pz_item.keys())[0]
-        pz_item_data = list(pz_item.values())[0]
 
         try:
             pz_item_type = pz_item_data['Type']
@@ -94,22 +92,21 @@ def _group_into_spreadsheets(json_data: Dict) -> Dict:
             # This is an item we don't care about. Skip!
             continue
 
-        grouped_dict[pz_item_type].append({pz_item_name: pz_item_data})
+        grouped_dict[pz_item_type][pz_item_name] = pz_item_data
 
     return grouped_dict
 
 
-def _dump_json_into_csvs(json_data: Dict):
+def _dump_json_into_csvs(json_data: Dict[str, Dict[str, Dict]]):
     """
     Given a JSON dump, split it out into some .csvs in the csv-dump/ subdir.
     """
     grouped_data = _group_into_spreadsheets(json_data)
 
-    dump_dir = Path('csv-dump')
-    dump_dir.mkdir(exist_ok=True)
+    DUMP_DIR.mkdir(exist_ok=True)
 
-    for pz_item_type, pz_items in grouped_data.items():
-        with Path(dump_dir / f'{pz_item_type}.csv').open('w') as csv_file:
+    for pz_item_type, pz_items_dict in grouped_data.items():
+        with Path(DUMP_DIR / f'{pz_item_type}.csv').open('w') as csv_file:
             print(f'Writing {csv_file.name}!')
             fieldnames: List[str]
 
@@ -127,8 +124,8 @@ def _dump_json_into_csvs(json_data: Dict):
             )
             writer.writeheader()
 
-            for pz_item in pz_items:
-                writer.writerow(list(pz_item.values())[0])
+            for pz_item in pz_items_dict.values():
+                writer.writerow(pz_item)
 
 
 def _get_scripts_from_moddir(mod_dir: Path) -> List[Path]:
@@ -158,7 +155,7 @@ def _get_scripts_from_moddir(mod_dir: Path) -> List[Path]:
 def main():
     args = parser.parse_args()
 
-    parsed_script_objects = defaultdict(list)
+    parsed_script_objects: Dict[str, Dict[str, Dict]] = defaultdict(dict)
 
     if args.scriptfile:
         with Path(args.scriptfile).open() as scriptfile:
@@ -203,11 +200,17 @@ def main():
                     # Parse and append a single scriptfile
                     print(f'Parsing {scriptfile.name} to JSON!')
                     as_json = parse_scriptfile_contents_as_json(scriptfile.read())
-                    for entity_type, entities in as_json.items():
-                        parsed_script_objects[entity_type].extend(entities)
+                    for entity_type, entity_dict in as_json.items():
+                        parsed_script_objects[entity_type] = {
+                            **parsed_script_objects[entity_type], **entity_dict
+                        }
 
     # Write various .csvs
     _dump_json_into_csvs(parsed_script_objects)
+
+    # And also dump the json for fun
+    with Path(DUMP_DIR / 'dump.json').open('w') as json_dump_file:
+        json.dump(parsed_script_objects, json_dump_file, sort_keys=True, indent=4)
 
 
 if __name__ == '__main__':
