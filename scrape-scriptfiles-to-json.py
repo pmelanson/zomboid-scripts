@@ -28,10 +28,12 @@ parser.add_argument(
 GUN_COLUMN_NAMES = [
     'DisplayName', 'AttachmentType', 'AmmoType', 'MagazineType', 'MaxAmmo',
     'MinDamage', 'MaxDamage', 'HitChance', 'CriticalChance',
-    'CritDmgMultiplier', 'AimingPerkHitChanceModifier',
-    'AimingPerkCritModifier', 'ProjectileCount', 'PiercingBullets',
+    'CritDmgMultiplier', 'ProjectileCount', 'PiercingBullets',
     'MaxHitCount', 'JamGunChance', 'AimingTime', 'ReloadTime',
-    'SoundVolume', 'SoundRadius',
+    'SoundRadius', 'MinRange', 'MaxRange', 'Weight',
+    'AimingPerkHitChanceModifier', 'AimingPerkCritModifier', 'ConditionMax',
+    'ConditionLowerChanceOneIn', 'PushBackMod', 'KnockdownMod', 'BaseID',
+    'AttachmentsList',
 ]
 
 MELEE_COLUMN_NAMES = [
@@ -50,6 +52,13 @@ BAG_COLUMN_NAMES = [
     'DisplayName', 'CanBeEquipped', 'Capacity', 'WeightReduction',
     'RunSpeedModifier', 'clothingExtraSubmenu', 'BodyLocation',
     'Weight',
+]
+
+ATTACHMENT_COLUMN_NAMES = [
+    'BaseID', 'DisplayName', 'PartType', 'WeightModifier',
+    'HitChanceModifier', 'MinRangeModifier', 'MaxRangeModifier',
+    'AimingTimeModifier', 'RecoilDelayModifier', 'ReloadTimeModifier',
+    'AngleModifier', 'MountOn',  # MountOn as the last field, since it's usually so massive.
 ]
 
 DUMP_DIR = Path('csv-dump')
@@ -75,8 +84,7 @@ def _group_into_spreadsheets(json_data: Dict[str, Dict[str, Dict]]) -> Dict[str,
 
         if pz_item_type == 'Weapon':
             if 'AmmoType' in pz_item_data:
-                # Group weapons by caliber.
-                pz_item_type = pz_item_data['AmmoType'].replace('Base.', '') + ' gun'
+                pz_item_type = 'Gun'
             else:
                 pz_item_type = 'Melee'
 
@@ -88,11 +96,31 @@ def _group_into_spreadsheets(json_data: Dict[str, Dict[str, Dict]]) -> Dict[str,
             # Split clothing out as well.
             pass
 
+        elif pz_item_type == 'WeaponPart':
+            # Split out attachments.
+            pz_item_type = 'Attachment'
+
         else:
             # This is an item we don't care about. Skip!
             continue
 
+        # Put the BaseID in the dict as well, if we need it.
+        pz_item_data['BaseID'] = pz_item_name
         grouped_dict[pz_item_type][pz_item_name] = pz_item_data
+
+    # Post-processing; add a gun -> attachments mapping
+    gun_to_attachment_map: Dict[str, List[str]] = defaultdict(list)
+    for attachment_name, attachment_data in grouped_dict['Attachment'].items():
+        mountable_weapons_list = attachment_data['MountOn'].split(';')
+        mountable_weapons_list = [item.strip() for item in mountable_weapons_list]
+        for weapon_id in mountable_weapons_list:
+            gun_to_attachment_map[weapon_id].append(attachment_name)
+
+    for gun, attachment_list in gun_to_attachment_map.items():
+        try:
+            grouped_dict['Gun'][gun]['AttachmentsList'] = ';'.join(attachment_list)
+        except KeyError:
+            pass
 
     return grouped_dict
 
@@ -110,7 +138,7 @@ def _dump_json_into_csvs(json_data: Dict[str, Dict[str, Dict]]):
             print(f'Writing {csv_file.name}!')
             fieldnames: List[str]
 
-            if 'gun' in pz_item_type:
+            if 'Gun' in pz_item_type:
                 fieldnames = GUN_COLUMN_NAMES
             elif pz_item_type == 'Melee':
                 fieldnames = MELEE_COLUMN_NAMES
@@ -118,6 +146,8 @@ def _dump_json_into_csvs(json_data: Dict[str, Dict[str, Dict]]):
                 fieldnames = CLOTHING_COLUMN_NAMES
             elif pz_item_type == 'Bag':
                 fieldnames = BAG_COLUMN_NAMES
+            elif pz_item_type == 'Attachment':
+                fieldnames = ATTACHMENT_COLUMN_NAMES
 
             writer = csv.DictWriter(
                 csv_file, fieldnames=fieldnames, extrasaction='ignore'
