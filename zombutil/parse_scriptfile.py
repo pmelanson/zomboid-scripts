@@ -1,6 +1,5 @@
 import json
 import re
-import sys
 from typing import Dict
 from collections import defaultdict
 
@@ -152,10 +151,8 @@ def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict[str, Dict[str, Di
     json_string = _pretend_its_json(_strip_comments(scriptfile))
     json_dict = {}
 
-    try:
-        json_dict = json.loads(json_string)
-    except json.decoder.JSONDecodeError as e:
-        print(f'Failed to parse file as JSON! {e}', file=sys.stderr)
+    # Might throw a json.decoder.JSONDecodeError
+    json_dict = json.loads(json_string)
 
     tidied_json = _cleanup_json(json_dict)
     return tidied_json

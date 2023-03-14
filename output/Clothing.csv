@@ -1,0 +1,588 @@
+DisplayName,BodyLocation,BiteDefense,RunSpeedModifier,CombatSpeedModifier,Insulation,NeckProtectionModifier,Weight
+Chest Holster,TorsoRig,,,,,,0.5
+Webbing (Tight),TorsoRig,,,,,,0.5
+Webbing (Loose),TorsoRig,,,,,,0.5
+Webbing (Tight),TorsoRig,,,,,,0.5
+Webbing (Loose),TorsoRig,,,,,,0.5
+Webbing (Tight),TorsoRig,,,,,,0.5
+Webbing (Loose),TorsoRig,,,,,,0.5
+NV-Control,NV_Eyes,,,,,,0
+NV-Control,NV_Eyes,,,,,,0
+NV-Control,NV_Eyes,,,,,,0
+NV-Control,NV_Eyes,,,,,,0
+NV-Control,NV_Eyes,,,,,,0
+Police SPH-3 Pilot Helmet,Hat,100,,,0,,1.5
+Police SPH-3 Pilot Helmet (Up),Hat,100,,,0,,1.5
+Military SPH-3 Pilot Helmet,Hat,100,,,0,,1.5
+Military SPH-3 Pilot Helmet (Up),Hat,100,,,0,,1.5
+Black SPH-3 Pilot Helmet,Hat,100,,,0,,1.5
+Black SPH-3 Pilot Helmet (Up),Hat,100,,,0,,1.5
+SPH-3 Pilot Helmet,Hat,100,,,0,,1.5
+SPH-3 Pilot Helmet (Up),Hat,100,,,0,,1.5
+Cutoff Denim Jacket,Jacket,10,0.89,0.96,0.9,,1
+Police Flying Suit,FullSuit,,0.9,,0.75,,
+Black Flying Suit,FullSuit,,0.9,,0.75,,
+,Hat,,,,,,1.5
+,Hat,,,,,,1.5
+,TorsoExtra,,,,,,
+Armband TYPE A,Left_RingFinger,,,,,,0.01
+Armband TYPE A (Loose),Left_RingFinger,,,,,,0.01
+Armband TYPE B,Left_RingFinger,,,,,,0.01
+Armband TYPE B (Loose),Left_RingFinger,,,,,,0.01
+Reflective Armband,Left_RingFinger,,,,,,0.01
+Reflective Armband (Loose),Left_RingFinger,,,,,,0.01
+FORT Defender 2 Emerald Armor,TorsoExtra,100,0.93,0.95,0.65,0.5,6
+FORT Defender 2 Emerald Armor w/ Full set,TorsoExtra,100,0.93,0.95,0.65,0.5,6
+Emerson Gear Tactical Plate Carrier,TorsoExtra,50,0.93,0.95,0.35,0.5,5
+Assault Bodyarmor 6B13,TorsoExtra,100,0.93,0.95,0.65,0.5,8
+Sheriff TGS Patrol Tactical Vest,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+Sheriff TGS Patrol Tactical Vest w/ Full set,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+DUTY Interceptor Body Armor,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+DUTY Interceptor Body Armor w/ Full Set,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+Hound Wolf Squad's Plate Carrier Set,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+Hound Wolf Squad's Plate Carrier Set B,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+EOD 9N Bomb Suit (Armor),TorsoExtra,150,0.5,0.5,0.95,0.5,12
+Military Juggernaut Body Armor (Type B),TorsoExtra,150,0.5,0.5,0.95,0.5,12
+Hunter's Combat Body Armor,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+Military Juggernaut Body Armor (Type A),TorsoExtra,150,0.5,0.5,0.95,0.5,12
+Exoskeleton Suit w/ Vest,TorsoExtra,130,0.93,0.95,0.65,0.5,12
+Exoskeleton Suit,TorsoExtra,150,0.93,0.95,0.65,0.5,12
+Hound Wolf Squad's Knee Pads,Right_MiddleFinger,,,,,,
+Hound Wolf Squad's Knee Pads (Loose),Right_MiddleFinger,,,,,,
+DUTY Tactical Knee Pads,Right_MiddleFinger,,,,,,
+DUTY Tactical Knee Pads (Loose),Right_MiddleFinger,,,,,,
+DUTY Tactical Arm Pads,Left_RingFinger,,,,,,
+DUTY Tactical Arm Pads (Loose),Left_RingFinger,,,,,,
+Mechanic Knee Protection,Right_MiddleFinger,,,,,,
+Hunter's Upper Arm Protection,Left_RingFinger,,,,,,
+Hunter's Upper Arm Protection w/ Pouches,Left_RingFinger,,,,,,
+Hunter's Thigh Protection,Left_MiddleFinger,,,,,,
+Hunter's Thigh Protection w/ Pouches,Left_MiddleFinger,,,,,,
+Hunter's Knee Pads,Right_MiddleFinger,,,,,,
+Hunter's Knee Pads (Tight),Right_MiddleFinger,,,,,,
+Hunter's Boots Combat Knife,Right_RingFinger,,,,,,
+Hunter's Boots Combat Knife (Tight),Right_RingFinger,,,,,,
+Metro Hazard Knee Pads,Right_MiddleFinger,,,,,,
+Metro Hazard Knee Pads (Tight),Right_MiddleFinger,,,,,,
+M1 Helmet w/ Mitchell Camouflage,Hat,90,,,0.45,,1
+M1 Helmet,Hat,90,,,0.45,,1
+Ops-Core FAST Ballistic Helmet,Hat,100,,,0.45,,1
+Military PASGT Helmet,Hat,120,,,0.45,,1.5
+Military PASGT Helmet w/ Neck Protection,Hat,120,,,0.45,,1.5
+Gentex Combat Vehicle Crewmans Helmet,Hat,110,,,0.45,,1.5
+Gentex HGU-56P Aircrew Helmet,Hat,110,,,0.45,,1.5
+Gentex HGU-56P Aircrew Helmet w/ Visor,Hat,110,,,0.45,,1.5
+Valkyrie's Pilot Helmet,Hat,110,,,0.45,,1.5
+Hound Wolf Squad's Ops-Core FAST Ballistic Helmet,Hat,100,,,0.45,,1
+MASKA-1SCh Helmet,Hat,100,,,0.45,,1
+6B6-3 Altyn Titanium Helmet,Hat,100,,,0.45,,1
+M1916 Stahlhelm Steel Helmet,Hat,100,,,0.45,,1
+M1916 Stahlhelm Steel Helmet w/ Brow Plate,Hat,100,,,0.45,,1
+EOD 9A Heavy Protection Helmet,Hat,100,,,0.45,,1
+Ashe's Leather Jacket,Jacket,10,,,0.35,0.5,1
+Ashe's Leather Jacket (Opened),Jacket,10,,,0.35,0.5,1
+Ashe's Leather Cloak,Necklace_Long,,,,0.35,0.5,1
+Ashe's Leather Cloak (Loose),Necklace_Long,,,,0.35,0.5,1
+Ashe's Leg Armor,Right_MiddleFinger,,,,,,
+Ashe's Hat,Hat,,,,0.15,,0.1
+Ashe's Necktie,Neck,,,,,,0.01
+Ashe's Jeans,Pants,10,,,0.35,,
+Bandana Mask,Mask,,,,0.8,,0.01
+Bandana Mask Half,Mask,,,,0.8,,0.01
+Bandana Mask Camouflage,Mask,,,,0.8,,0.01
+Bandana Mask Camouflage Half,Mask,,,,1.0,,0.01
+Bandana Mask Decal Version,Mask,,,,0.8,,0.01
+Bandana Mask Decal Version Half,Mask,,,,0.8,,0.01
+1 Hole Balaclava Mask (Type A),Mask,,,,0.8,,0.01
+1 Hole Balaclava Mask (Type B),Mask,,,,0.8,,0.01
+2 Hole Balaclava Mask (Type A),Mask,,,,0.8,,0.01
+2 Hole Balaclava Mask (Type B),Mask,,,,0.8,,0.01
+3 Hole Balaclava Mask (Type A),Mask,,,,0.8,,0.01
+3 Hole Balaclava Mask (Type B),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask,Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (FULL),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (Camouflage),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (Camouflage FULL),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (Hunting),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (Hunting FULL),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (Casual),Mask,,,,0.8,,0.01
+Shemagh Scarf Face Mask (Casual FULL),Mask,,,,0.8,,0.01
+Ashe's Shemagh Scarf Face Mask,Mask,,,,0.8,,0.01
+Ashe's Shemagh Scarf Face Mask (FULL),Mask,,,,0.8,,0.01
+Hunter's Bulletproof Ballistic Face Mask,Mask,,,,0.8,,0.01
+Hunter's Bulletproof Ballistic Face Mask w/ Balaclava,Mask,,,,0.8,,0.01
+Chainmail Mask,Mask,,,,0.8,,0.01
+Blauer XRT Gore Chempak CBRN Protective Suit,FullSuit,60,0.9,,1,,
+Blauer Multi-Threat Ensemble,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Blauer Multri-Threat Ensemble (Hooded),FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Blauer RC3 CBRN Protective Suit,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Blauer RC3 CBRN Protective Suit (Hooded),FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Trellchem Light Chemical Protection Suit,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Trellchem Light Chemical Protection Suit (Hooded),FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Level A CBRN Protective Suit,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Antibelok-5 Hazmat Suit,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Antibelok-5 Hazmat Suit (Cutted),Jacket,40,0.75,0.97,0.99,0.5,3.5
+Lightweight Viper Hood,Necklace_Long,20,,,0.35,0.5,1
+Lightweight Viper Hood ON,Necklace_Long,20,,,0.35,0.5,1
+Tactics Ghillie Suit Coats w/ Hood,Necklace_Long,20,,,0.35,0.5,1
+Tactics Ghillie Suit Coats,Necklace_Long,20,,,0.35,0.5,1
+Field Canvas Cloak Raincoat,Necklace_Long,20,,,0.35,0.5,1
+Field Canvas Cloak Raincoat Hood Off,Necklace_Long,20,,,0.35,0.5,1
+Northstar Ghillie Suit (Type A),Necklace_Long,20,,,0.35,0.5,1
+Northstar Ghillie Suit (Type B),Necklace_Long,20,,,0.35,0.5,1
+Northstar Ghillie Suit (Type C),Necklace_Long,20,,,0.35,0.5,1
+Northstar Ghillie Suit (Type D),Necklace_Long,20,,,0.35,0.5,1
+Metro Hazard Protection Coat,Necklace_Long,20,,,0.35,0.5,1
+Chainmail Coat,Necklace_Long,20,,,0.35,0.5,1
+Elzbieta Bosak's Tactical Jacket,Jacket,30,,,0.35,,2
+Elzbieta Bosak's Tactical Leggings,Pants,10,,,0.35,,
+Bars Gorka 4 Camouflage Jacket,Jacket,30,,,0.35,0.5,2
+Bars Gorka 4 Camouflage Pants,Pants,30,,,0.35,,
+Bars Gorka 4 Camouflage Pants Rolled,Pants,30,,,0.35,,
+Quarter Zip Combat Shirts,Jacket,30,,,0.35,0.5,2
+Striker XT Combat Pants,Pants,30,,,0.35,,
+Striker XT Combat Pants Rolled,Pants,30,,,0.35,,
+Military Field Shirts,Jacket,30,,,0.35,0.5,2
+Military Field Pants,Pants,30,,,0.35,,
+Military Field Pants Rolled,Pants,30,,,0.35,,
+Crye G3 Combat Pants,Pants,30,,,0.35,,
+Crye G3 Combat Pants Rolled,Pants,30,,,0.35,,
+GEN3 Hooded Tactical Shirts,Jacket,10,,,0.35,0.5,1
+GEN3 Hooded Tactical Shirts (Hood On),Jacket,10,,,0.35,0.5,1
+Kawaii Sports Winter Jacket,Jacket,25,0.95,0.97,0.35,0.5,3
+Kawaii Sports Winter Jacket (Hood On),Jacket,25,0.95,0.97,0.35,0.5,3
+BARS Classic Gorka 4 Jacket,Jacket,20,0.95,,0.35,0.5,2
+BARS Classic Gorka 4 Jacket (Hood On),Jacket,20,0.95,,0.35,0.5,2
+BARS Gorka 6 Jacket,Jacket,20,0.95,,0.35,0.5,2
+BARS Gorka 6 Jacket (Hood On),Jacket,20,0.95,,0.35,0.5,2
+M65 Military Field Jacket,Jacket,20,0.95,,0.35,0.5,2
+M65 Military Field Jacket (Hood On),Jacket,20,0.95,,0.35,0.5,2
+Gorka K1 Anorak Pants,Pants,17,,,0.35,,2
+Gorka K1 Anorak Pants Rolled,Pants,17,,,0.35,,2
+M42 Paratrooper Pants,Pants,17,,,0.35,,2
+M42 Paratrooper Pants Rolled,Pants,17,,,0.35,,2
+Striker XT Gen.2 Combat Pants,Pants,17,,,0.35,,2
+Striker XT Gen.2 Combat Pants Rolled,Pants,17,,,0.35,,2
+Elzbieta Bosak ELA's Tactical Jacket,Jacket,20,0.95,,0.35,0.5,2
+Elzbieta Bosak ELA's Tactical Jacket (Opened),Jacket,20,0.95,,0.35,0.5,2
+UF Pro Striker XT GEN.2 Combat Shirts,Jacket,10,,,0.35,0.5,1
+UF Pro Striker XT GEN.2 Combat Shirts (Rolled),Jacket,10,,,0.35,0.5,1
+TRN Tactical Hooded Combat Shirts,Jacket,10,,,0.35,0.5,1
+TRN Tactical Hooded Combat Shirts (Rolled),Jacket,10,,,0.35,0.5,1
+Army Uniform Jacket,Jacket,10,,,0.35,0.5,1
+Army Uniform Jacket (Rolled),Jacket,10,,,0.35,0.5,1
+Heavy Winter Jacket,Jacket,25,0.95,0.97,0.35,0.5,3
+Heavy Winter Jacket (Hooded),Jacket,25,0.95,0.97,0.35,0.5,3
+Camouflage Heavy Winter Jacket,Jacket,25,0.95,0.97,0.35,0.5,3
+Camouflage Heavy Winter Jacket (Hooded),Jacket,25,0.95,0.97,0.35,0.5,3
+Natalie Paquette Wattson's Jacket,Jacket,25,0.95,0.97,0.35,0.5,3
+Natalie Paquette Wattson's Jacket (Hooded),Jacket,25,0.95,0.97,0.35,0.5,3
+Vintage Long Fur Coat,Jacket,25,0.95,0.97,0.35,0.5,3
+Vintage Long Fur Coat (Hooded),Jacket,25,0.95,0.97,0.35,0.5,3
+Kelvin Lite Down Hunting Pants,Pants,20,0.98,,0.35,,3
+Kelvin Lite Down Hunting Pants Rolled,Pants,20,0.98,,0.35,,3
+Kelvin Lite Down Hunting Jacket,Jacket,25,0.95,0.97,0.35,0.5,3
+Kelvin Lite Down Hunting Jacket (Opened),Jacket,25,0.95,0.97,0.35,0.5,3
+Elzbieta Bosak's Tactical Pants,Pants,10,,,0.35,,
+EOD 9N Bomb Suit (Jacket),Jacket,50,0.5,0.5,0.95,0.5,4
+EOD 9N Bomb Suit (Pants),Pants,50,0.98,0.5,0.95,,3
+Military Juggernaut Chain Mail Jacket,Jacket,50,0.5,0.5,0.95,0.5,4
+Military Juggernaut Suit (Pants),Pants,50,0.98,0.5,0.95,,3
+Hunter's Combat Pants,Pants,17,,,0.35,,2
+Hunter's Combat Pants Rolled,Pants,17,,,0.35,,2
+Hunter's Jacket w/ Hoodie,Jacket,10,,,0.35,0.5,1
+Hunter's Jacket,Jacket,10,,,0.35,0.5,1
+Metro Hazard Jacket,Jacket,10,,,0.35,0.5,1
+Metro Hazard Combat Pants,Pants,17,,,0.35,,2
+Metro Hazard Combat Pants Rolled,Pants,17,,,0.35,,2
+Men's Army Combat Uniform Shirts,Jacket,10,,,0.35,0.5,1
+Men's Army Combat Uniform Shirts (Rolled),Jacket,10,,,0.35,0.5,1
+Men's Check Shirts,Jacket,10,,,0.35,0.5,1
+Men's Check Shirts (Rolled),Jacket,10,,,0.35,0.5,1
+Chainmail Combat Pants,Pants,17,,,0.35,,2
+Chainmail Combat Pants (Rolled),Pants,17,,,0.35,,2
+Men's Adidas Shirts,Jacket,10,,,0.35,0.5,1
+Men's Adidas Shirts (Rolled),Jacket,10,,,0.35,0.5,1
+Men's Commando Sweater,Jacket,10,,,0.35,0.5,1
+Men's Commando Sweater (Rolled),Jacket,10,,,0.35,0.5,1
+Men's Tactical Hoodie,Jacket,10,,,0.35,0.5,1
+Men's Tactical Hoodie (Rolled),Jacket,10,,,0.35,0.5,1
+Gallery Gorka-5 Coyote Jacket w/ Hoodie,Jacket,10,,,0.35,0.5,1
+Gallery Gorka-5 Coyote Jacket,Jacket,10,,,0.35,0.5,1
+Huntrite Hunting Camouflage Jacket w/ Hoodie,Jacket,10,,,0.35,0.5,1
+Huntrite Hunting Camouflage Jacket,Jacket,10,,,0.35,0.5,1
+Mil-Tec Camouflage Jacket w/ Hoodie,Jacket,10,,,0.35,0.5,1
+Mil-Tec Camouflage Jacket Jacket,Jacket,10,,,0.35,0.5,1
+Casual Decal Jacket w/ Hoodie,Jacket,10,,,0.35,0.5,1
+Casual Decal Jacket Jacket,Jacket,10,,,0.35,0.5,1
+Emerson Gear Crye G3 Combat Pants,Pants,17,,,0.35,,2
+Emerson Gear Crye G3 Combat Pants Rolled,Pants,17,,,0.35,,2
+5.11 XPRT Tactical Pants,Pants,17,,,0.35,,2
+5.11 XPRT Tactical Pants Rolled,Pants,17,,,0.35,,2
+5.11 FAST-TAC Urban Pants,Pants,17,,,0.35,,2
+5.11 FAST-TAC Urban Pants Rolled,Pants,17,,,0.35,,2
+5.11 Defender-Flex Jeans,Pants,17,,,0.35,,2
+5.11 Defender-Flex Jeans Rolled,Pants,17,,,0.35,,2
+Lindfield Check Pants,Pants,17,,,0.35,,2
+Lindfield Check Pants Rolled,Pants,17,,,0.35,,2
+Men's Cargo Pants,Pants,17,,,0.35,,2
+Men's Cargo Pants Rolled,Pants,17,,,0.35,,2
+MIL-TEC Camouflage Pants,Pants,17,,,0.35,,2
+MIL-TEC Camouflage Rolled,Pants,17,,,0.35,,2
+ErgoTech Firefighting Jacket,Jacket,30,,,0.35,0.5,2
+EOS Structural Firefighting Pants,Pants,30,,,0.35,,
+EOS Structural Firefighting Pants Rolled,Pants,30,,,0.35,,
+Gore-tex M2 Boots Gaiters,Necklace,,,,,,
+Gore-tex M2 Boots Gaiters (Loose),Necklace,,,,,,
+Canvas Military Boots Gaiters,Necklace,,,,,,
+Canvas Military Boots Gaiters (Loose),Necklace,,,,,,
+MCU 2/P Gas Mask,Mask,,,,0.75,,1.5
+M45 Gas Mask,Mask,,,,0.75,,1.5
+Avon Protection M50 Gas Mask,Mask,,,,0.75,,1.5
+Avon Protection FM53 Gas Mask,Mask,,,,0.75,,1.5
+MSA Millennium Gas Mask,Mask,,,,0.75,,1.5
+MSA Millennium Gas Mask w/ VPU,Mask,,,,0.75,,1.5
+K-1 Gas Mask,Mask,,,,0.75,,1.5
+K-1 Gas Mask (Half Cutted),Mask,,,,0.75,,1.5
+K-1 Gas Mask Protective Hood,Ears,,,,,,0.1
+PMK-1 Gas Mask,Mask,,,,0.75,,1.5
+PMK-1 Gas Mask (Half Cutted),Mask,,,,0.75,,1.5
+PMK-2 Gas Mask,Mask,,,,0.75,,1.5
+PMK-2 Gas Mask (Half Cutted),Mask,,,,0.75,,1.5
+Avon S10 Gas Mask,Mask,,,,0.75,,1.5
+Avon S10 Gas Mask w/ PAPR,Mask,,,,0.75,,1.5
+GP-4U Gas Mask,Mask,,,,0.75,,1.5
+MM-1 Gas Mask,Mask,,,,0.75,,1.5
+ShMS Gas Mask,Mask,,,,0.75,,1.5
+ShMS Gas Mask w/ Hose,Mask,,,,0.75,,1.5
+GP-5M Gas Mask,Mask,,,,0.75,,1.5
+PMG Gas Mask,Mask,,,,0.75,,1.5
+GM15 Gas Mask,Mask,,,,0.75,,1.5
+GM17 Gas Mask,Mask,,,,0.75,,1.5
+Metro Hazard Gas Mask,Mask,,,,0.75,,1.5
+Metro Hazard Gas Mask w/ Filter,Mask,,,,0.75,,1.5
+Metro Hazard IDA-59 Rebreather,Neck,,,,,,
+Metro Hazard IDA-59 Rebreather w/ Mouthpiece,Neck,,,,,,
+3M Comfort Grip Gloves,Hands,,,,0.3,,0.01
+Mechanix Wear Covert Gloves,Hands,,,,0.3,,0.01
+Mechanix Wear M-Pact Gloves,Hands,,,,0.3,,0.01
+Feskarn Fisherman Gloves,Hands,,,,0.3,,0.01
+Long Leather Work Gloves,Hands,,,,0.3,,0.01
+Mustang Utility Leather Gloves,Hands,,,,0.3,,0.01
+Bolle Tactical X1000 Goggles,Eyes,,,,,,0.3
+Bolle Tactical X1000 Goggles OFF,Eyes,,,,,,0.3
+Napier SR-Ricochet Shooting Glasses,Eyes,,,,,,0.3
+Tank Crewman Goggles,Eyes,,,,,,0.3
+Tank Crewman Goggles OFF,Eyes,,,,,,0.3
+Tactical Goggles w/ Cover,Eyes,,,,,,0.3
+Elzbieta Bosak ELA's Tactical Goggles,Eyes,,,,,,0.3
+Elzbieta Bosak ELA's Tactical Goggles (OFF),Eyes,,,,,,0.3
+Valkyrie's Aviator Sunglass,Eyes,,,,,,0.3
+Valkyrie's Aviator Sunglass (OFF),Eyes,,,,,,0.3
+Tactical Boonie Hat,Hat,,,,0.15,,0.5
+Striker Boonie Hat,Hat,,,,0.15,,0.5
+Silent Hill Nurse Cap,Hat,,,,0.15,,0.1
+Duck Tactical Cap,Hat,,,,0.15,,0.5
+Duck Tactical Cap Backwards,Hat,,,,0.15,,0.5
+Condor Camouflage Cap,Hat,,,,0.15,,0.5
+Condor Camouflage Cap Backwards,Hat,,,,0.15,,0.5
+Helikon Tex Patrol Cap,Hat,,,,0.15,,0.5
+Helikon Tex Patrol Cap Backwards,Hat,,,,0.15,,0.5
+Tactical Beret,Hat,,,,0.15,,0.5
+Officer Visor Cap,Hat,,,,0.15,,0.5
+Police Officer Visor Cap,Hat,,,,0.15,,0.5
+Anna's Dead Bear Mask,Hat,30,,,0.95,,2
+MSA Cairns 880 Fire Helmet w/ Tuffshield,Hat,100,,,0.45,,1
+Northstar Ghillie Hat,Hat,,,,0.15,,0.5
+Northstar Ghillie Hat w/ Mask,Hat,,,,0.15,,0.5
+Elzbieta Bosak ELA's Tactical Cap,Hat,,,,0.15,,0.5
+Elzbieta Bosak ELA's Tactical Cap Backwards,Hat,,,,0.15,,0.5
+Rosemary Winters Cap,Hat,,,,0.15,,0.5
+Rosemary Winters Cap Backwards,Hat,,,,0.15,,0.5
+Police Baseball Cap,Hat,,,,0.15,,0.5
+Police Baseball Cap Backwards,Hat,,,,0.15,,0.5
+Northstar Sniper Veil,Hat,,,,0.15,,0.5
+Worn Beanie Hat,Hat,,,,0.15,,0.5
+Worn Beanie Hat w/ Broken Lights,Hat,,,,0.15,,0.5
+Feskarn Fisherman Baseball Cap,Hat,,,,0.15,,0.5
+Feskarn Fisherman Baseball Cap Backwards,Hat,,,,0.15,,0.5
+Mil-Tec Baseball Cap,Hat,,,,0.15,,0.5
+Mil-Tec Baseball Cap Backwards,Hat,,,,0.15,,0.5
+Z Tactical Sordin Headset,Ears,,,,0.3,,0.3
+Astrocom Military Headset,Ears,,,,0.3,,0.3
+EARMOR Tactical Headset,Ears,,,,0.3,,0.3
+EM Aviation Headsets,Ears,,,,0.3,,0.3
+EM Aviation Headsets (OFF),Ears,,,,0.3,,0.3
+Comtac III Headsets,Ears,,,,0.3,,0.3
+Comtac III Headsets (OFF),Ears,,,,0.3,,0.3
+Peltor Comtac IV Hybrid Headsets,Ears,,,,0.3,,0.3
+Peltor Comtac IV Hybrid Headsets (OFF),Ears,,,,0.3,,0.3
+Z-Tactical Bowman Elite II Headsets,Ears,,,,0.3,,0.3
+Z-Tactical Bowman Elite II Headsets (Loose),Ears,,,,0.3,,0.3
+HGU-56P Helmet Face Shield,RightEye,30,,,,0.5,2
+Viper's Pilot Helmet Face Shield,RightEye,30,,,,0.5,2
+Military PASGT Helmet Visor,RightEye,30,,,,0.5,2
+Military PASGT Helmet Visor UP,LeftEye,30,,,,0.5,2
+Police PASGT Helmet Visor,RightEye,30,,,,0.5,2
+Police PASGT Helmet Visor UP,LeftEye,30,,,,0.5,2
+MASKA-1SCh Helmet Visor,RightEye,30,,,,0.5,2
+MASKA-1SCh Helmet Visor (OFF),LeftEye,30,,,,0.5,2
+6B6-3 Altyn Titanium Helmet Visor,RightEye,30,,,,0.5,2
+6B6-3 Altyn Titanium Helmet Visor (OFF),LeftEye,30,,,,0.5,2
+Vityaz-S Electric Train Helmet Visor,RightEye,30,,,,0.5,2
+Vityaz-S Electric Train Helmet Visor (OFF),LeftEye,30,,,,0.5,2
+ZSh-1-2/M Helmet Visor,RightEye,30,,,,0.5,2
+ZSh-1-2/M Helmet Visor (OFF),LeftEye,30,,,,0.5,2
+Cairns 880 Fire Helmet Visor,RightEye,30,,,,0.5,2
+Cairns 880 Fire Helmet Visor (OFF),LeftEye,30,,,,0.5,2
+M1916 Stahlhelm Steel Helmet Cruise Visor,RightEye,30,,,,0.5,2
+M1916 Stahlhelm Steel Helmet Ratslayer Visor,RightEye,30,,,,0.5,2
+EOD 9A Heavy Protection Helmet Visor,RightEye,30,,,,0.5,2
+EOD 9A Heavy Protection Helmet Visor (OFF),LeftEye,30,,,,0.5,2
+EOD 9A Heavy Protection Helmet Face Shield,RightEye,30,,,,0.5,2
+Voin-1 Heavy Protection Helmet Face Shield,RightEye,30,,,,0.5,2
+Sam Fisher's Night Vision Goggles,Nose,,,,0.3,,0.3
+Sam Fisher's Night Vision Goggles UP,Nose,,,,0.3,,0.3
+AN PVS-15 Night Vision Goggles,Nose,,,,0.3,,0.3
+AN PVS-15 Night Vision Goggles (OFF),Nose,,,,0.3,,0.3
+AN PVS-15 Night Vision Goggles w/ Harness,Nose,,,,0.3,,0.3
+AN PVS-15 Night Vision Goggles w/ Harness (OFF),Nose,,,,0.3,,0.3
+GPNVG-18 Night Vision Goggles,Nose,,,,0.3,,0.3
+GPNVG-18 Night Vision Goggles (OFF),Nose,,,,0.3,,0.3
+GPNVG-18 Night Vision Goggles w/ Harness,Nose,,,,0.3,,0.3
+GPNVG-18 Night Vision Goggles w/ Harness (OFF),Nose,,,,0.3,,0.3
+AN PVS-5A Night Vision Goggle,Nose,,,,0.3,,0.3
+AN PVS-5A Night Vision Goggle OFF,Nose,,,,0.3,,0.3
+PNV-57E Night Vision Device,Nose,,,,0.3,,0.3
+PNV-57E Night Vision Device OFF,Nose,,,,0.3,,0.3
+AN/PVS-7 Night Vision Goggles,Nose,,,,0.3,,0.3
+AN/PVS-7 Night Vision Goggles OFF,Nose,,,,0.3,,0.3
+AN/PVS-21 Night Vision Goggles,Nose,,,,0.3,,0.3
+AN/PVS-21 Night Vision Goggles OFF,Nose,,,,0.3,,0.3
+L3Harris GPNVG Ground Panoramic Night Vision Goggles,Nose,,,,0.3,,0.3
+L3Harris GPNVG Ground Panoramic Night Vision Goggles OFF,Nose,,,,0.3,,0.3
+Heather Mason's Hand Bands,Necklace,,,,,,0.01
+Maria's Choker,Necklace,,,,,,0.01
+Lisa Garlnad's Earing,Ears,,,,,,0.01
+Heather Mason's Leather Boots,Shoes,100,,,0.75,,
+Cybil Bennett's Leather Boots,Shoes,100,,,0.75,,
+James Sunderland's Boots,Shoes,100,,,0.75,,
+Lisa Garland's Shoes,Shoes,100,,,0.75,,
+Maria's Boots,Shoes,100,,,0.75,,
+Coyote Tactical Boots,Shoes,100,,,0.75,,
+Trackstar Tactical Boots,Shoes,100,,,0.75,,
+The Legion Susie's Sneakers,Shoes,100,,,0.75,,
+Salomon Men's Guardian Tactical Boots,Shoes,100,,,0.75,,
+Ashe's Leather Boots,Shoes,100,,,0.75,,
+Mechanic Boots,Shoes,100,,,0.75,,
+Rosemary Winter's Sneakers,Shoes,100,,,0.75,,
+Silent Hill Nurse Shoes,Shoes,100,,,0.75,,
+Metro Hazard Boots,Shoes,100,,,0.75,,
+Adidas Killa Jacket,Jacket,30,,,0.35,0.5,2
+Adidas Killa Pants,Pants,30,,,0.35,,
+Silent Hill Nurse Skirt,Skirt,,,,0.1,,0.1
+Hound Wolf Squad's Jacket,Jacket,25,0.95,0.97,0.35,0.5,3
+Dolphin Short Pants,Pants,7,,,0.25,,0.1
+Turtleneck Sleeveless,ShortSleeveShirt,10,,,0.35,0.5,0.1
+Belly Turtleneck Sleeveless,ShortSleeveShirt,10,,,0.35,0.5,0.1
+Sleeveless Tank Top,TankTop,,,,0.2,,0.1
+Office Shirts,Shirt,,,,0.2,,0.1
+Office Shirts Long,Shirt,,,,0.2,,0.1
+Office Skirt,Skirt,,,,0.1,,0.1
+Office Skirt Long,Skirt,,,,0.1,,0.1
+Office Cardigan,Jacket,10,,,0.35,0.5,0.1
+Office Long Cardigan,Jacket,10,,,0.35,0.5,0.1
+Adidas Leggings,Pants,10,,,0.35,,0.1
+Adidas Track Top,Jacket,,,,0.35,0.5,2
+Heather Mason's Skirt,Skirt,,,,0.35,,0.1
+Lisa Garland's Cardigan,Jacket,10,,,0.35,0.5,0.1
+Cybil Bennett's Police Shirts,Shirt,,,,0.35,,0.1
+Cybil Bennett's Police Leather Pants,Pants,10,,,0.35,,
+Cybil Bennett's Police Leather Jacket,Jacket,10,,,0.35,0.5,2
+James Sunderland's Field Jacket,Jacket,20,0.95,,0.35,0.5,2
+James Sunderland's Shirts,Shirt,,,,0.2,,0.1
+James Sunderland's Jeans,Pants,10,,,0.35,,
+Lisa Garland's Skirt,Skirt,,,,0.1,,0.1
+Harry Mason's Leather Jacket,Jacket,10,,,0.35,0.5,2
+Harry Mason's Leather Vest,Shirt,,,,0.35,,0.1
+Maria's Cardigan,Shirt,10,,,0.35,0.5,0.1
+Maria's Skirt,Skirt,,,,0.1,,0.1
+Sebastian Castellanos's Trench Coat,Jacket,25,0.95,0.97,0.35,0.5,2
+Sebastian Castellanos's Shirts w/ Leather Vest,Shirt,10,,,0.35,0.5,
+Sebastian Castellanos's Jeans,Pants,10,,,0.35,,
+Juli Kidman's Shirts,Shirt,,,,0.2,,0.1
+Juli Kidman's Jeans,Pants,10,,,0.35,,
+The Legion Susie's Hoodie,Jacket,10,,,0.35,0.5,1
+The Legion Susie's Hoodie (Hood On),Jacket,10,,,0.35,0.5,1
+Slim Fit Suit Jacket,Jacket,20,0.95,,0.35,0.5,2
+Slim Fit Suit Jacket (Opened),Jacket,20,0.95,,0.35,0.5,2
+Army Officer Uniform Suit Jacket,Jacket,20,0.95,,0.35,0.5,2
+Army Officer Uniform Suit Jacket (Opened),Jacket,20,0.95,,0.35,0.5,2
+Air Stewardess Uniform Suit Jacket,Jacket,20,0.95,,0.35,0.5,2
+Air Stewardess Uniform Suit Jacket (Opened),Jacket,20,0.95,,0.35,0.5,2
+Wool Long Coat,Jacket,25,0.95,0.97,0.35,0.5,3
+Wool Long Coat (Opened),Jacket,25,0.95,0.97,0.35,0.5,3
+Military Camouflage Long Coat,Jacket,25,0.95,0.97,0.35,0.5,3
+Military Camouflage Long Coat (Opened),Jacket,25,0.95,0.97,0.35,0.5,3
+Feskarn Fisherman Suit,Pants,20,0.98,,0.35,,3
+Feskarn Fisherman Suit (Opened),Pants,20,0.98,,0.35,,3
+Mechanic Waist Apron,Necklace_Long,20,,,0.35,0.5,1
+Mechanic Waist Apron (Tight),Necklace_Long,20,,,0.35,0.5,1
+Luke Skywalker's Cape,Necklace_Long,20,,,0.35,0.5,1
+Luke Skywalker's Cape (Hood On),Necklace_Long,20,,,0.35,0.5,1
+Obi Wan Kenobi's Cape,Necklace_Long,20,,,0.35,0.5,1
+Obi Wan Kenobi's Cape (Hood On),Necklace_Long,20,,,0.35,0.5,1
+Darth Vader's Cape,Necklace_Long,20,,,0.35,0.5,1
+Darth Vader's Helmet,Hat,120,,,0.35,,1.5
+Darth Vader's Mask w/ Hood,Mask,,,,0.35,,1.5
+Adidas Track Pants,Pants,30,,,0.35,,
+Adidas Track Pants Rolled,Pants,30,,,0.35,,
+Heather Mason's Jacket,Jacket,10,,,0.35,0.5,1
+Heather Mason's Jacket (Opened),Jacket,10,,,0.35,0.5,1
+School Cardigan,Jacket,10,,,0.35,0.5,0.1
+School Cardigan (Opened),Jacket,10,,,0.35,0.5,0.1
+School Long Cardigan,Jacket,10,,,0.35,0.5,0.1
+School Long Cardigan (Opened),Jacket,10,,,0.35,0.5,0.1
+Dress Cardigan,Jacket,10,,,0.35,0.5,0.1
+Dress Cardigan (Opened),Jacket,10,,,0.35,0.5,0.1
+Short Cardigan,Jacket,10,,,0.35,0.5,0.1
+Short Cardigan (Opened),Jacket,10,,,0.35,0.5,0.1
+Officer Overcoat,Jacket,25,0.95,0.97,0.35,0.5,3
+Officer Overcoat (Opened),Jacket,25,0.95,0.97,0.35,0.5,3
+Cutout Cropped Half Sweater,ShortSleeveShirt,10,,,0.35,0.5,0.1
+Coast Guard Flotation Jacket,Jacket,,,,0.35,0.5,2
+Coast Guard Flotation Jacket (Opened),Jacket,,,,0.35,0.5,2
+Paramedic Jacket,Jacket,,,,0.35,0.5,2
+Paramedic Jacket (Opened),Jacket,,,,0.35,0.5,2
+Kawasaki Monster Energy Jacket,Jacket,,,,0.35,0.5,2
+Kawasaki Monster Energy Jacket (Opened),Jacket,,,,0.35,0.5,2
+Men's Hunting Hoodie,Jacket,,,,0.35,0.5,2
+Men's Hunting Hoodie (Rolled),Jacket,,,,0.35,0.5,2
+Tactical Check Shirts,Jacket,,,,0.35,0.5,2
+Tactical Check Shirts (Rolled),Jacket,,,,0.35,0.5,2
+Hi Vis Police Waterproof Jacket,Jacket,,,,0.35,0.5,2
+Hi Vis Police Waterproof Jacket (Opened),Jacket,,,,0.35,0.5,2
+Gunsmith Cats Leather Jacket,Jacket,,,,0.35,0.5,2
+Gunsmith Cats Leather Jacket (Opened),Jacket,,,,0.35,0.5,2
+Denim Hot Pants (High),Pants,10,,,0.3,,0.1
+Denim Hot Pants,Pants,10,,,0.3,,0.1
+Denim Hot Pants (High-Waist),Pants,10,,,0.3,,0.1
+Denim Shorts (Fold Up),Pants,10,,,0.3,,0.1
+Denim Jeans Slim-Fit,Pants,10,,,0.3,,
+Adidas Padded Jacket,Jacket,,,,0.35,0.5,2
+Adidas Padded Jacket (Opened),Jacket,,,,0.35,0.5,2
+Viking Firefighter Jacket,Jacket,,,,0.35,0.5,2
+Viking Firefighter Jacket (Opened),Jacket,,,,0.35,0.5,2
+Check Pattern Skirt,Skirt,,,,0.1,,0.1
+Rosemary Winter's Jacket w/ Hoodie,Jacket,10,,,0.35,0.5,1
+Rosemary Winter's Jacket,Jacket,10,,,0.35,0.5,1
+Rosemary Winters Jeans,Pants,10,,,0.35,,
+Silent Hill Nurse Dress,Skirt,,,,0.1,,0.1
+Cable Knit Sweater Dress,Jacket,10,,,0.35,0.5,1
+Cable Knit Sweater Dress (Rolled),Jacket,10,,,0.35,0.5,1
+Off Shoulder Cable Knit Sweater Dress,Jacket,10,,,0.35,0.5,1
+Off Shoulder Cable Knit Sweater Dress (Rolled),Jacket,10,,,0.35,0.5,1
+Cutout Front Long Sleeve Sweater Dress,Jacket,10,,,0.35,0.5,1
+Cutout Front Long Sleeve Sweater Dress (Rolled),Jacket,10,,,0.35,0.5,1
+Bandit Trenchcoat,Jacket,20,0.95,,0.35,0.5,2
+Bandit Trenchcoat (Hood On),Jacket,20,0.95,,0.35,0.5,2
+Bandit Jacket w/ Hoodie,Jacket,20,0.95,,0.35,0.5,2
+Bandit Jacket,Jacket,20,0.95,,0.35,0.5,2
+Rozsa Office Skirts,Skirt,,,,0.1,,0.1
+Rozsa Office Long Skirts,Skirt,,,,0.1,,0.1
+Pencil Office Skirts,Skirt,,,,0.1,,0.1
+Pencil Office Long Skirts,Skirt,,,,0.1,,0.1
+Slim Fit School Skirts,Skirt,,,,0.1,,0.1
+Slim Fit School Long Skirts,Skirt,,,,0.1,,0.1
+V Waist Mini Skirts,Skirt,,,,0.1,,0.1
+Pleated Skirts,Skirt,,,,0.1,,0.1
+Ladies Formal Blouse Shirts,Shirt,,,,0.2,,0.1
+Brig's Shirts,Shirt,,,,0.2,,0.1
+Shooting Team Competition Shirts,Shirt,,,,0.2,,0.1
+Outdoor Sports Arm Sleeve,BellyButton,,,,0.2,,0.1
+Ladies Long Sleeve Shirts,Shirt,10,,,0.35,0.5,0.1
+Dirt Bike Helmet,Hat,120,,,0.45,,1.5
+Dirt Bike Helmet w/Ggoggles,Hat,120,,,0.45,,1.5
+Sheriff Patrol Jacket,Jacket,30,,,0.35,0.5,2
+Police Patrol Jacket,Jacket,30,,,0.35,0.5,2
+Sheriff Bomber Jacket,Jacket,20,0.95,,0.35,0.5,2
+Sheriff Bomber Jacket (Opened),Jacket,20,0.95,,0.35,0.5,2
+Polizei GORE-TEX Jacket,Jacket,20,0.95,,0.35,0.5,2
+Polizei GORE-TEX Jacket (Opened),Jacket,20,0.95,,0.35,0.5,2
+Robbie The Rabbit Suit Red,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Robbie The Rabbit Helmet Red,Hat,120,,,0.45,,1
+Robbie The Rabbit Suit Blue,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Robbie The Rabbit Helmet Blue,Hat,120,,,0.45,,1
+Robbie The Rabbit Suit Green,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Robbie The Rabbit Helmet Green,Hat,120,,,0.45,,1
+Robbie The Rabbit Suit Grey,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Robbie The Rabbit Helmet Grey,Hat,120,,,0.45,,1
+Robbie The Rabbit Suit Purple,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Robbie The Rabbit Helmet Purple,Hat,120,,,0.45,,1
+Robbie The Rabbit Suit Yellow,FullSuit,40,0.75,0.97,0.99,0.5,3.5
+Robbie The Rabbit Helmet Yellow,Hat,120,,,0.45,,1
+Shotgun Chest Bandolier,AmmoStrap,,,,,,0.1
+Arm Shotgun Shell Holder,Left_RingFinger,,,,,,0.1
+Arm Shotgun Shell Holder Sets,Left_RingFinger,,,,,,0.1
+Thigh Shotgun Shell Holder,Right_MiddleFinger,,,,,,0.1
+Thigh Shotgun Shell Holder Sets,Right_MiddleFinger,,,,,,0.1
+Metro Hazard Chest Bandolier,AmmoStrap,,,,,,0.1
+Metro Hazard Chest Bandolier (Tight),AmmoStrap,,,,,,0.1
+Feskarn Fisherman Rope,AmmoStrap,,,,,,0.1
+Emergency Self-Rescue Rope,AmmoStrap,,,,,,0.1
+The Legion Susie's Stockings,Socks,,,,,,0.01
+Lingerie Tights,UnderwearExtra1,,,,,,0.01
+Stockings Suspender Belt,UnderwearExtra2,,,,,,0.01
+Stocking Strings,UnderwearExtra2,,,,,,0.01
+Wool Winter Stockings (Over Knee),Socks,,,,,,0.01
+Wool Winter Stockings (Below),Socks,,,,,,0.01
+Wool Winter Stockings (Mismatched),Socks,,,,,,0.01
+Wool Winter Stockings (Unpaired),Socks,,,,,,0.01
+Wool Winter Stockings (Ripped),Socks,,,,,,0.01
+Lace Stockings (Over Knee),Socks,,,,,,0.01
+Lace Stockings (Ripped),Socks,,,,,,0.01
+Lace Stockings (Unpaired),Socks,,,,,,0.01
+Casual Patterned Stockings (Over Knee),Socks,,,,,,0.01
+Casual Patterned Stockings (Below),Socks,,,,,,0.01
+Casual Patterned Stockings (Mismatched),Socks,,,,,,0.01
+Casual Patterned Stockings (Unpaired),Socks,,,,,,0.01
+Casual Patterned Stockings (Ripped),Socks,,,,,,0.01
+Sweater Winter Stockings (Over Knee),Socks,,,,,,0.01
+Sweater Winter Stockings (Below),Socks,,,,,,0.01
+Sweater Winter Stockings (Mismatched),Socks,,,,,,0.01
+Sweater Winter Stockings (Unpaired),Socks,,,,,,0.01
+Sweater Winter Stockings (Ripped),Socks,,,,,,0.01
+Nylon Stockings,Socks,,,,,,0.01
+Nylon Stockings (Ripped),Socks,,,,,,0.01
+Fleece Lined Tights,UnderwearExtra1,,,,,,0.01
+Sweater Tights,UnderwearExtra1,,,,,,0.01
+Ripped Tights,UnderwearExtra1,,,,,,0.01
+Sports Bra,UnderwearTop,,,,0.2,,0.01
+Calvin Klein Bra,UnderwearTop,,,,,,0.01
+Calvin Klein Panties,UnderwearBottom,,,,,,0.01
+Lace Triangle Bra,UnderwearTop,,,,,,0.01
+Bunny Girl Bodysuit,UnderwearTop,,,,,,0.01
+USCMC Combat Shirts,Jacket,10,,,0.35,0.5,1
+USCMC Combat Shirts (Rolled),Jacket,10,,,0.35,0.5,1
+USCMC Combat Pants,Pants,17,,,0.35,,2
+USCMC Combat Pants Rolled,Pants,17,,,0.35,,2
+USCMC Combat Boots,Shoes,100,,,0.75,,
+USCMC Combat Helmet,Hat,100,,,0.45,,1
+USCMC Combat Body Armor,TorsoExtra,100,0.93,0.95,0.65,0.5,5
+Bloodsucker Costume Set,Jacket,40,0.75,0.97,0.99,0.5,3.5
+Silent Hill Bubble Head Nurse Set,Jacket,40,0.75,0.97,0.99,0.5,3.5
+Silent Hill Nurse Set,Jacket,40,0.75,0.97,0.99,0.5,3.5
+The Evil Within Shade Set,Jacket,40,0.75,0.97,0.99,0.5,3.5
+Silent Hill Closer Set,Jacket,40,0.75,0.97,0.99,0.5,3.5
+Oshkosh Gray T-Shirt,Tshirt,,,,0.2,,
+Oshkosh Black T-Shirt,Tshirt,,,,0.2,,
+bknht T-Shirt,Tshirt,,,,0.2,,
+Oshkosh Black Hoodie,SweaterHat,,,,0.65,,
+Oshkosh Black Hoodie,Sweater,,,,0.60,0.5,
+Oshkosh Gray Hoodie,SweaterHat,,,,0.65,,
+Oshkosh Gray Hoodie,Sweater,,,,0.60,0.5,
+Anime T-Shirt,Tshirt,,,,0.5,,
+Rifle Sling,Sling,,,,,,0.01
+Rifle Sling,Sling,,,,,,0.01
+Rifle Sling,Sling,,,,,,0.01
+Rifle Sling,Sling,,,,,,0.01

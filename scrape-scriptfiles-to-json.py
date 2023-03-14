@@ -3,9 +3,10 @@
 import argparse
 import csv
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 from zombutil.parse_scriptfile import parse_scriptfile_contents_as_json
 
@@ -61,7 +62,7 @@ ATTACHMENT_COLUMN_NAMES = [
     'AngleModifier', 'MountOn',  # MountOn as the last field, since it's usually so massive.
 ]
 
-DUMP_DIR = Path('csv-dump')
+DUMP_DIR = Path('output')
 
 
 def _group_into_spreadsheets(json_data: Dict[str, Dict[str, Dict]]) -> Dict[str, Dict[str, Dict]]:
@@ -210,30 +211,59 @@ def main():
                 for mod_dir in workshop_dir.iterdir():
                     scriptfiles.extend(_get_scripts_from_moddir(mod_dir))
 
+            faulty_scriptfiles: List[Tuple[Path, Exception]] = []
+
             # We have a list of all .txt scriptfiles, scrape them now!
             for scriptfile in scriptfiles:
+                is_blacklisted_scriptfile = False
                 for blacklist in [
                     'GunFighter_Sounds.txt',
                     '2022_02_16_List of Armor.txt',
-                    'Beret.txt',
-                    'Jur.txt',
                     'ammomaker_items.txt',
                     'ammomaker_recipes.txt',
                     'ambc_recipes.txt',
-                    'tsarslib',
+                    'vehicles'
                 ]:
                     if blacklist in scriptfile.parts:
                         # These files are hard and/or broken
-                        continue
+                        is_blacklisted_scriptfile = True
+                if is_blacklisted_scriptfile:
+                    continue
 
-                with scriptfile.open() as scriptfile:
-                    # Parse and append a single scriptfile
-                    print(f'Parsing {scriptfile.name} to JSON!')
-                    as_json = parse_scriptfile_contents_as_json(scriptfile.read())
-                    for entity_type, entity_dict in as_json.items():
-                        parsed_script_objects[entity_type] = {
-                            **parsed_script_objects[entity_type], **entity_dict
-                        }
+                # Parse and append a single scriptfile
+                print(f'Parsing {scriptfile.name} to JSON!')
+
+                scriptfile_contents = ''
+                successfully_read_scriptfile = False
+                for encoding in ['utf-8', 'windows-1252', 'windows-1250']:
+                    try:
+                        with scriptfile.open(encoding=encoding) as fd:
+                            scriptfile_contents = fd.read()
+                        successfully_read_scriptfile = True
+                    except UnicodeDecodeError:
+                        print(f'Failed to read {scriptfile.name} with {encoding} encoding. Trying another encoding.')
+                    else:
+                        break  # Found a correct encoding
+                if not successfully_read_scriptfile:
+                    # Can't read this file, get an example exception and give up.
+                    try:
+                        with scriptfile.open() as bad_scriptfile_fd:
+                            bad_scriptfile_fd.read()
+                    except UnicodeDecodeError as e:
+                        faulty_scriptfiles.append((scriptfile.name, e))
+                    continue  # Welp, time to give up and go to the next file
+
+                try:
+                    as_json = parse_scriptfile_contents_as_json(scriptfile_contents)
+                except json.decoder.JSONDecodeError as e:
+                    print(f'Huh, my file parsing choked a bit there: {e}')
+                    faulty_scriptfiles.append((scriptfile.name, e))
+                    continue
+
+                for entity_type, entity_dict in as_json.items():
+                    parsed_script_objects[entity_type] = {
+                        **parsed_script_objects[entity_type], **entity_dict
+                    }
 
     # Write various .csvs
     _dump_json_into_csvs(parsed_script_objects)
@@ -241,6 +271,18 @@ def main():
     # And also dump the json for fun
     with Path(DUMP_DIR / 'dump.json').open('w') as json_dump_file:
         json.dump(parsed_script_objects, json_dump_file, sort_keys=True, indent=4)
+
+    print('\n')
+    print('Faulty scriptfiles:')
+    for scriptfile_name, scriptfile_exception in faulty_scriptfiles:
+        print(scriptfile_exception, scriptfile_name, file=sys.stderr)
+        if isinstance(scriptfile_exception, json.decoder.JSONDecodeError):
+            # Bit of extra json help
+            e_index = scriptfile_exception.pos
+            debug_text = (scriptfile_exception.doc[e_index - 40:e_index - 1]
+                          + '→' + scriptfile_exception.doc[e_index] + '←'
+                          + scriptfile_exception.doc[e_index + 1:e_index + 40])
+            print(debug_text.replace('\n', '\\n'))
 
 
 if __name__ == '__main__':
