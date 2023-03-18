@@ -1,7 +1,8 @@
-import json
 import re
-from typing import Dict
-from collections import defaultdict
+from typing import Dict, List, Tuple
+
+ITEM_OBJECT_AND_PAYLOAD_PATTERN = r'item ([\w ]+)[^{]*{([^}]+)}'  # Two matching groups
+ITEM_ATTRIB_AND_VALUE_PATTERN = r'([\w]+)\s*=\s*([^,]+)'  # Two matching groups
 
 
 def _strip_comments(scriptfile: str) -> str:
@@ -17,11 +18,6 @@ def _strip_comments(scriptfile: str) -> str:
         '',
         scriptfile
     )
-    return scriptfile
-
-
-def _pretend_its_json(scriptfile: str) -> str:
-    """Modify the script file to make it look like JSON."""
 
     # Fuck tabstops
     #   - patrick 2020 and you can quote me on that
@@ -31,106 +27,26 @@ def _pretend_its_json(scriptfile: str) -> str:
         scriptfile
     )
 
-    # We use `module Base` as the root object
-    scriptfile = re.sub(
-        r'module \w+',
-        '',
-        scriptfile
-    )
-
-    # Escape instances of `"`
-    scriptfile = re.sub(
-        r'"',
-        '\\"',
-        scriptfile
-    )
-
-    # Seems like `;` is the list separator character. Make lists on one line,
-    # like in GunFighter_Reloading_Items.txt, and sort it out later.
-    scriptfile = re.sub(
-        r';\s*?\n',
-        ';',
-        scriptfile
-    )
-
-    # Turn `item foo { ... }` into `"item foo": { ... },`
-    scriptfile = re.sub(
-        r'\s*\b(.+?)\s*\n?\s*{',
-        r'''"\1": {\n''',
-        scriptfile
-    )
-    scriptfile = re.sub(
-        r'}',
-        '},',  # We'll have to get rid of the last comma in a list, later
-        scriptfile
-    )
-
-    # Turn `fieldname = value,` or `fieldname:value,` into `"fieldname": "value",`
-    scriptfile = re.sub(
-        r'\s*\b(.+?)\s*[:=]\s*(.+?)\s*([,}])',
-        r'"\1": "\2"\3',
-        scriptfile
-    )
-
-    # Turn `Bolt_Bear_Pack,` into `Bolt_Bear_Pack: true`
-    # Check Bolt_Bear.txt in Brita's Weapon Pack for this use case.
-    scriptfile = re.sub(
-        r'\n\s*([^:}]+?)\s*,',
-        r'"\1": true,',
-        scriptfile
-    )
-
-    # Have to get rid of the last comma in each list
-    # Note: we still have to clean up the root element's trailing comma.
-    scriptfile = re.sub(
-        r',\s*}',
-        '}',
-        scriptfile
-    )
-
-    # Get rid of empty commas (why do these exist??)
-    scriptfile = re.sub(
-        r',\s*,',
-        ',',
-        scriptfile
-    )
-
-    scriptfile = scriptfile.strip()
-
-    if len(scriptfile) <= 1:
-        # This is an empty JSON string by now. Weird.
-        scriptfile = '{}'
-
-    if scriptfile[-1] == ',':
-        # Get rid of the trailing comma after the root element
-        scriptfile = scriptfile[:-1]
-
     return scriptfile
 
 
-def _cleanup_json(json_obj: Dict) -> Dict[str, Dict[str, Dict]]:
+def _extract_items(scriptfile: str) -> List[Tuple[str, str]]:
+    """From a file, extract a lot of
+    "item ChestRig": "Weight=0.5,Type=Clothing"
     """
-    Tidies up the resulting JSON a little, group stuff like Items together.
+
+    return re.findall(ITEM_OBJECT_AND_PAYLOAD_PATTERN, scriptfile)
+
+
+def _extract_item_attributes(item_payload: str) -> Dict[str, str]:
+    """From an item's data, extract all the attributes into nice strings, e.g. 
     """
-    grouped_dict: Dict[str, Dict[str, Dict]] = defaultdict(dict)
 
-    for key, pz_entity_data in json_obj.items():
-        if key == 'imports':
-            continue  # Don't care
-
-        # In "fixing Fix 10855_Silver", the first word is the entity type and
-        # the last is the specific name.
-        pz_entity_type, *_, pz_entity_name = key.split(' ')
-
-        if pz_entity_type in ['model', 'sound', ]:
-            continue  # Don't care
-
-        grouped_dict[pz_entity_type][pz_entity_name] = pz_entity_data
-
-    return grouped_dict
+    results = re.findall(ITEM_ATTRIB_AND_VALUE_PATTERN, item_payload)
+    return {match[0]: re.sub(r'\s+', ' ', match[1]).strip() for match in results}
 
 
-def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict[str, Dict[str, Dict]]:
+def parse_scriptfile_contents_into_dict(scriptfile: str) -> Dict[str, Dict[str, str]]:
     """
     Takes a string of the entire contents of a scriptfile, and massages it into
     a JSON format before parsing it and returning it as a dict.
@@ -148,11 +64,10 @@ def parse_scriptfile_contents_as_json(scriptfile: str) -> Dict[str, Dict[str, Di
                 huge_json_object = {**huge_json_object, **file_as_json}
     """
 
-    json_string = _pretend_its_json(_strip_comments(scriptfile))
-    json_dict = {}
+    output_json: Dict[str, Dict[str, str]] = {}
 
-    # Might throw a json.decoder.JSONDecodeError
-    json_dict = json.loads(json_string)
+    items_and_payloads = _extract_items(_strip_comments(scriptfile))
+    for item, payload in items_and_payloads:
+        output_json[item.strip()] = _extract_item_attributes(payload)
 
-    tidied_json = _cleanup_json(json_dict)
-    return tidied_json
+    return output_json

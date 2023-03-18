@@ -1,192 +1,77 @@
-DisplayName,Categories,MaxDamage,MinDamage,MinRange,MaxRange,CriticalChance,MinimumSwingTime,SwingAnim,KnockdownMod,Tags
-AK-12 (2016) Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AK-308 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Swedish AK5-C w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Swedish AK5-C w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Arsenal[26] Mod SKS (Melee),Improvised;Spear,0.5,0.2,0.61,0.7,0,2,Spear,0,
-Arsenal[26] Mod SKS w/Extended Mag (Melee),Improvised;Spear,0.5,0.2,0.61,0.7,0,2,Spear,0,
-M14 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M16A1 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKM (Saddam's Gold Plated - Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Custom AKM Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Custom AK74M Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-LVOA-C (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-ADAR 2-15 Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-BushMaster AR15 MOE (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-BushMaster XM15 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-BushMaster XM15 Custom (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Sig Sauer MCX Spear (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Sig Sauer MCX Spear (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Sig Sauer MCX VirtusPatrol (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Sig Sauer MCX Socom (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AK-74 Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKS-74 Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKS-74 w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKS-74U (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKS-74U w/Folded stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AK-12 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AK-12 w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AN-94 Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AK-47 Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKM Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AK-103 Assault Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Zastava M85 w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Zastava M85 w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Romanian Md.65 w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Romanian Md.65 w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKMS w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-AKMS w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Type 38 Arisaka (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Type 99 Arisaka (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Colt M723 Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-XM177E2 Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-H&K HK416 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-S&T Motiv K2C1 Police Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-S&T Motiv K2C1 Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K2 Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K2 Rifle w/ K203 Handgaurd (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K2 (ADVK-2 Rail) Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K2 (Grunt Rail) Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K1 w/ Devgru Rail (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K1A (Devgru) SMG (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K1A (Devgru) SMG (Folded/Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K1 SMG (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo K1 SMG (Folded/Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Daewoo DR 200 Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN FAL 50.00 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN FAL 50.63 w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN FAL 50.63 w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN FNC (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN FNC w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-H&K G33 Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-H&K G3 Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-H&K G28 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Mk.18 Mod.1 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Howa Type 64 Battle Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-KAC M203 Grenade Launcher,,0,0,0.61,0,0,2.0,,0,
-M14 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M14EBR (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M14EBR w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M16A1 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M16A2 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M16A3 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Colt M16A1 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Colt M16 w/Wood Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Colt M16 w/Tape (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M1Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M2Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Colt M4 Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Colt M4A1 Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-MAS-36 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-MAS-44 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-MAS-49 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN SCAR-B (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN SCAR-L (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN SCAR-H (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-FN SCAR 20S (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Model 870 Marine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Winchester Model 1897 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Ithaca M37 Trench-Gun (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-SKS Carbine (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-SKS Carbine w/Bayonet (Melee),Improvised;Spear,1.9,1.4,0.61,1.2,30,2,Spear,0,
-SKS Carbine w/Extended Mag (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-SKS Carbine w/Extended Mag and Bayonet (Melee),Improvised;Spear,1.9,1.4,0.61,1.2,30,2,Spear,0,
-SKS ParaTrooper (Melee),Improvised;Spear,0.5,0.2,0.61,0.7,0,2,Spear,0,
-SKS Carbine w/Bayonet (Melee),Improvised;Spear,1.8,1.4,0.61,1.1,30,2,Spear,0,
-SKS ParaTrooper w/Extended Mag (Melee),Improvised;Spear,0.5,0.2,0.61,0.7,0,2,Spear,0,
-SKS ParaTrooper w/Extended Mag and Bayonet (Melee),Improvised;Spear,1.8,1.4,0.61,1.1,30,2,Spear,0,
-SPAS12_Fixed (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-SPAS12_Fold (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-SPAS12_Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Dragunov Sniper Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Dragunov SVDS Sniper Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Vz.58 w/Fixed Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Vz.58 w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Vz.58 w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Vz.58 Mini w/Extended Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Vz.58 Mini w/Folded Stock (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M46 Saimese Mauser (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Mosin Nagant 1891/30 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-M1 Garand Rifle (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Springfield M1903 (Melee),Improvised;Spear,0.5,0.2,0.61,0.8,0,2,Spear,0,
-Tactical_Sickle,Axe,1.0,0.6,0.61,1.1,15,3,Bat,2,ChopTree;CutPlant
-WW1 Trench Axe,Axe,3.0,1.3,0.61,1.35,50,0.5,Heavy,3,ChopTree;CutPlant
-Celtic Broad Axe,Axe,3.1,1.4,0.61,1.37,52,0.6,Heavy,3,ChopTree;CutPlant
-Gerber Ding-Dong Breaching Tool,Blunt,3.0,2.0,0.7,1.35,35,4.0,Heavy,3,Sledgehammer
-"Monadnock 36"" Baton",Blunt,0.8,0.4,0.61,1.4,30,2.1,Bat,2,
-"Monadnock 36"" Baton",Spear,0.8,0.4,0.61,1.5,0,2.0,Spear,2,
-PR-24 Side-Handle Baton,SmallBlunt,1.1,0.6,0.61,1.2,25,2.1,Bat,0,
-PR-24 Side-Handle Baton,SmallBlunt,0.9,0.5,0.61,1.0,15,1.6,Stab,0,
-PR-24 Side-Handle Baton,Spear,0.9,0.6,0.61,1.0,20,1.8,Spear,0,
-ASP Expandable Baton,SmallBlunt,0.8,0.4,0.61,1.2,20,2.1,Bat,0,
-ASP Expandable Baton,SmallBlunt,0.3,0.2,0.61,0.7,0,1.6,Stab,0,Flip
-Chinese War-Sword,LongBlade,5.2,3.2,0.61,1.1,35,2,Heavy,3,
-Chinese War-Sword,LongBlade,4.2,2.7,0.61,1.3,30,2,Bat,2,
-Chinese War-Sword,Spear,3.2,2.2,0.61,1.4,25,2,Spear,0,
-Conan Sword,LongBlade,5.5,3.5,0.61,1.2,35,2,Heavy,3,
-Conan Sword,LongBlade,4.5,3,0.61,1.1,30,2,Bat,2,
-Conan Sword,Spear,3.5,2.5,0.61,1.2,25,2,Spear,0,
-FirePlace Poker,Axe,1.4,1.0,0.61,0.7,25,1,Heavy,3,
-FirePlace Poker,LongBlade,1.2,0.8,0.61,0.8,20,1,Bat,2,
-FirePlace Poker,Spear,1.0,0.6,0.61,0.81,15,1,Spear,0,
-Wooden Nun-Chucks,SmallBlunt,0.4,0.2,0.61,1.0,10,2.0,Bat,0,Flex
-Wooden Nun-Chucks,SmallBlunt,0.3,0.1,0.61,1.0,10,1.0,Bat,0,Flex
-Polymer Nun-Chucks,SmallBlunt,0.8,0.4,0.61,1.0,20,3.0,Bat,0,Flex
-Polymer Nun-Chucks,SmallBlunt,0.6,0.3,0.61,1.0,20,2.0,Bat,0,Flex
-Steel Nun-Chucks,SmallBlunt,1.0,0.6,0.61,1.0,30,4.0,Bat,0,Flex
-Steel Nun-Chucks,SmallBlunt,0.8,0.4,0.61,1.0,30,3.0,Bat,0,Flex
-Billiard Ball in a Sock,SmallBlunt,0.6,0.4,0.61,0.85,20,2.0,Bat,0,Flex
-Padlock on a Belt,SmallBlunt,0.6,0.3,0.61,1.0,20,1.5,Bat,0,Flex
-Combo-Lock on a Belt,SmallBlunt,0.6,0.3,0.61,1.0,20,1.5,Bat,0,Flex
-Crafted Torch (Lit),SmallBlunt,0.3,0.2,0.61,1.0,10,2.0,Bat,0,Torch;Flex;StartFire
-Crafted Torch,SmallBlunt,0.3,0.2,0.61,1.0,10,2.0,Bat,0,CanIgnite
-"Rambo III Standard Edition 13"" Blade",LargeBlade,1.5,1.0,0.61,1.1,50,2.5,Stab,0,CutPlant;SharpKnife
-"Rambo III Standard Edition 13"" Blade (Thrown)",LargeBlade,0.7,0.5,0.61,6,5,0.2,Swing,,Thrown
-Balisong Butterfly Knife,SmallBlade,0.6,0.3,0.61,0.8,15,2.0,Stab,0,CutPlant;SharpKnife
-Balisong Butterfly Knife,SmallBlade,0.7,0.4,0.61,0.65,15,2.0,Bat,0,CutPlant;SharpKnife
-Balisong Butterfly Knife,SmallBlade,0.1,0.0,0.61,0.65,0,2.0,Stab,0,
-Karambit Knife,SmallBlade,0.7,0.5,0.61,0.8,17,2.0,Stab,0,CutPlant;SharpKnife
-Karambit Knife,SmallBlade,0.7,0.5,0.61,0.7,17,2.0,Bat,0,CutPlant;SharpKnife
-Push Dagger,SmallBlade,0.6,0.3,0.61,0.7,15,1.7,Stab,0,CutPlant;SharpKnife
-UVSR Taiga Machete,LongBlade,2.9,1.9,0.61,1.2,20,3.8,Bat,2,CutPlant
-UVSR Taiga Machete (Thrown),Axe,0.9,0.6,0.61,6,5,0.2,Swing,,Thrown
-Gerber BG Machete,LongBlade,3.1,2.1,0.61,1.25,20,4.2,Bat,2,CutPlant;SharpKnife
-Spartan Spear,Spear,1.8,1.3,0.98,1.48,35,2,Spear,0,FishingSpear
-Spartan Spear,Spear,1.8,1.3,0.98,1.38,35,2,Stab,0,FishingSpear
-Spartan_Spear (Thrown),Spear,0.9,0.7,0.61,7,20,0.2,Bat,,Thrown;Spear
-Valkyrie's Suzaku Spear,Spear,1.8,1.3,0.88,1.38,35,2,Spear,0,FishingSpear
-Valkyrie's Suzaku Spear,Spear,1.8,1.3,0.88,1.28,35,2,Stab,0,FishingSpear
-Valkyrie's Suzaku Spear (Thrown),Spear,0.9,0.7,0.61,9,20,0.2,Bat,,Thrown;Spear
-Katana (Hattori Hanzo),LongBlade,4.0,2.0,0.61,1.4,35,3.0,Bat,0,CutPlant;SharpKnife
-Katana (Cold Steel),LongBlade,3.8,1.8,0.61,1.4,35,3.0,Bat,0,CutPlant;SharpKnife
-Stone,,0.4,0.2,,15,,1.5,Throw,,
-Sparkler,,0,0,,15,,1.5,Throw,,
-Brick,,1.2,0.7,,10,,1.5,Throw,,
-Empty Bottle,,1,0.5,,10,,1.5,Throw,,
-Empty Bottle,,1,0.5,,10,,1.5,Throw,,
-Empty Bottle,,1,0.5,,10,,1.5,Throw,,
-Empty Pop Can,,0,0,,10,,1.5,Throw,,
-Empty Beer Can,,0,0,,10,,1.5,Throw,,
-Basketball,,0.5,0.3,,10,,1.5,Throw,,
-Football,,0.5,0.3,,10,,1.5,Throw,,
-Golf Ball,,0.3,0.1,,10,,1.5,Throw,,
-Pool Ball,,0.2,0.1,,10,,1.5,Throw,,
-SoccerBall,,0.5,0.3,,10,,1.5,Throw,,
-Tennis Ball,,0.2,0.1,,10,,1.5,Throw,,
-Baseball,,0.2,0.1,,10,,1.5,Throw,,
-Dart,,0.3,0.2,,10,,1.5,Throw,,
-Empty Tin Can,,0.3,0.1,,10,,1.5,Throw,,
-Empty Cyan Mug,,0.2,0.1,,10,,1.5,Throw,,
-Empty Red Mug,,0.2,0.1,,10,,1.5,Throw,,
-Empty White Mug,,0.2,0.1,,10,,1.5,Throw,,
-Empty Spiffo Mug,,0.2,0.1,,10,,1.5,Throw,,
-Teacup,,0.2,0.1,,10,,1.5,Throw,,
-Tumbler,,0.2,0.1,,10,,1.5,Throw,,
-Wine Glass,,0.2,0.1,,10,,1.5,Throw,,
-Plate,,0.2,0.1,,10,,1.5,Throw,,
-Blue Plate,,0.2,0.1,,10,,1.5,Throw,,
-Orange Plate,,0.2,0.1,,10,,1.5,Throw,,
-Fancy Plate,,0.2,0.1,,10,,1.5,Throw,,
-Empty Bottle,,0,0,,10,,1.5,Throw,,
-Empty Pop Bottle,,0,0,,10,,1.5,Throw,,
-Empty Bleach Bottle,,0,0,,10,,1.5,Throw,,
+DisplayName,Categories,MaxDamage,MinDamage,MinRange,MaxRange,CriticalChance,MinimumSwingTime,SwingAnim,KnockdownMod,IsAimedFirearm,IsAimedFirearm,Tags
+Grenade (Fragmentation),,0,0,,10,100,1.5,Throw,10,,,
+Grenade (M24-Stick),,0,0,,11,,1.5,Throw,10,,,
+Explosive (Timer Claymore),,0,0,,7,,1.5,Throw,0,,,
+Explosive (Proximity Claymore),,0,0,,10,,1.5,Throw,10,,,
+Explosive (Remote Claymore),,0,0,,10,,1.5,Throw,10,,,
+Explosive (Landmine),,0,0,,10,,1.5,Throw,10,,,
+Tactical_Sickle,Axe,1.0,0.6,0.61,1.1,15,3,Bat,2,,,ChopTree;CutPlant
+WW1 Trench Axe,Axe,3.0,1.3,0.61,1.35,50,0.5,Heavy,3,,,ChopTree;CutPlant
+Celtic Broad Axe,Axe,3.1,1.4,0.61,1.37,52,0.6,Heavy,3,,,ChopTree;CutPlant
+Gerber Ding-Dong Breaching Tool,Blunt,3.0,2.0,0.7,1.35,35,4.0,Heavy,3,,,Sledgehammer
+Monadnock 36\" Baton,Blunt,0.8,0.4,0.61,1.4,30,2.1,Bat,2,,,
+Monadnock 36\" Baton,Spear,0.8,0.4,0.61,1.5,0,2.0,Spear,2,,,
+PR-24 Side-Handle Baton,SmallBlunt,1.1,0.6,0.61,1.2,25,2.1,Bat,0,,,
+PR-24 Side-Handle Baton,SmallBlunt,0.9,0.5,0.61,1.0,15,1.6,Stab,0,,,
+PR-24 Side-Handle Baton,Spear,0.9,0.6,0.61,1.0,20,1.8,Spear,0,,,
+ASP Expandable Baton,SmallBlunt,0.8,0.4,0.61,1.2,20,2.1,Bat,0,,,
+ASP Expandable Baton,SmallBlunt,0.3,0.2,0.61,0.7,0,1.6,Stab,0,,,Flip
+Chinese War-Sword,LongBlade,5.2,3.2,0.61,1.1,35,2,Heavy,3,,,
+Chinese War-Sword,LongBlade,4.2,2.7,0.61,1.3,30,2,Bat,2,,,
+Chinese War-Sword,Spear,3.2,2.2,0.61,1.4,25,2,Spear,0,,,
+Conan Sword,LongBlade,5.5,3.5,0.61,1.2,35,2,Heavy,3,,,
+Conan Sword,LongBlade,4.5,3,0.61,1.1,30,2,Bat,2,,,
+Conan Sword,Spear,3.5,2.5,0.61,1.2,25,2,Spear,0,,,
+FirePlace Poker,Axe,1.4,1.0,0.61,0.7,25,1,Heavy,3,,,
+FirePlace Poker,LongBlade,1.2,0.8,0.61,0.8,20,1,Bat,2,,,
+FirePlace Poker,Spear,1.0,0.6,0.61,0.81,15,1,Spear,0,,,
+Wooden Nun-Chucks,SmallBlunt,0.4,0.2,0.61,1.0,10,2.0,Bat,0,,,Flex
+Wooden Nun-Chucks,SmallBlunt,0.3,0.1,0.61,1.0,10,1.0,Bat,0,,,Flex
+Polymer Nun-Chucks,SmallBlunt,0.8,0.4,0.61,1.0,20,3.0,Bat,0,,,Flex
+Polymer Nun-Chucks,SmallBlunt,0.6,0.3,0.61,1.0,20,2.0,Bat,0,,,Flex
+Steel Nun-Chucks,SmallBlunt,1.0,0.6,0.61,1.0,30,4.0,Bat,0,,,Flex
+Steel Nun-Chucks,SmallBlunt,0.8,0.4,0.61,1.0,30,3.0,Bat,0,,,Flex
+Billiard Ball in a Sock,SmallBlunt,0.6,0.4,0.61,0.85,20,2.0,Bat,0,,,Flex
+Padlock on a Belt,SmallBlunt,0.6,0.3,0.61,1.0,20,1.5,Bat,0,,,Flex
+Combo-Lock on a Belt,SmallBlunt,0.6,0.3,0.61,1.0,20,1.5,Bat,0,,,Flex
+Crafted Torch (Lit),SmallBlunt,0.3,0.2,0.61,1.0,10,2.0,Bat,0,,,Torch;Flex;StartFire
+Crafted Torch,SmallBlunt,0.3,0.2,0.61,1.0,10,2.0,Bat,0,,,CanIgnite
+Rambo III Standard Edition 13\" Blade,LargeBlade,1.5,1.0,0.61,1.1,50,2.5,Stab,0,,,CutPlant;SharpKnife
+Rambo III Standard Edition 13\" Blade (Thrown),LargeBlade,0.7,0.5,0.61,6,5,0.2,Swing,,,,Thrown
+Balisong Butterfly Knife,SmallBlade,0.6,0.3,0.61,0.8,15,2.0,Stab,0,,,CutPlant;SharpKnife
+Balisong Butterfly Knife,SmallBlade,0.7,0.4,0.61,0.65,15,2.0,Bat,0,,,CutPlant;SharpKnife
+Balisong Butterfly Knife,SmallBlade,0.1,0.0,0.61,0.65,0,2.0,Stab,0,,,
+Karambit Knife,SmallBlade,0.7,0.5,0.61,0.8,17,2.0,Stab,0,,,CutPlant;SharpKnife
+Karambit Knife,SmallBlade,0.7,0.5,0.61,0.7,17,2.0,Bat,0,,,CutPlant;SharpKnife
+Push Dagger,SmallBlade,0.6,0.3,0.61,0.7,15,1.7,Stab,0,,,CutPlant;SharpKnife
+UVSR Taiga Machete,LongBlade,2.9,1.9,0.61,1.2,20,3.8,Bat,2,,,CutPlant
+UVSR Taiga Machete (Thrown),Axe,0.9,0.6,0.61,6,5,0.2,Swing,,,,Thrown
+Gerber BG Machete,LongBlade,3.1,2.1,0.61,1.25,20,4.2,Bat,2,,,CutPlant;SharpKnife
+Spartan Spear,Spear,1.8,1.3,0.98,1.48,35,2,Spear,0,,,FishingSpear
+Spartan Spear,Spear,1.8,1.3,0.98,1.38,35,2,Stab,0,,,FishingSpear
+Spartan_Spear (Thrown),Spear,0.9,0.7,0.61,7,20,0.2,Bat,,,,Thrown;Spear
+Valkyrie's Suzaku Spear,Spear,1.8,1.3,0.88,1.38,35,2,Spear,0,,,FishingSpear
+Valkyrie's Suzaku Spear,Spear,1.8,1.3,0.88,1.28,35,2,Stab,0,,,FishingSpear
+Valkyrie's Suzaku Spear (Thrown),Spear,0.9,0.7,0.61,9,20,0.2,Bat,,,,Thrown;Spear
+Katana (Hattori Hanzo),LongBlade,4.0,2.0,0.61,1.4,35,3.0,Bat,0,,,CutPlant;SharpKnife
+Katana (Cold Steel),LongBlade,3.8,1.8,0.61,1.4,35,3.0,Bat,0,,,CutPlant;SharpKnife
+Ninja Star,SmallBlade,0,0,0.61,6,5,0.2,Thrown,,,,Thrown
+Throwing Knife,SmallBlade,0.7,0.3,0.61,0.8,20,2,Stab,0,,,CutPlant
+Throwing Knife (Thrown),SmallBlade,0.3,0.1,0.61,7,5,0.2,Swing,,,,Thrown
+Hand Axe,Axe,1.5,0.7,0.61,1.1,15,3,Bat,2,,,ChopTree;CutPlant
+Hand Axe (Thrown),Axe,0.7,0.3,0.61,5,5,0.2,Swing,,,,Thrown
+Meat Cleaver,SmallBlade,0.8,0.4,0.61,1,15,4,Bat,2,,,ChopTree;CutPlant
+Meat Cleaver (Thrown),SmallBlade,0.4,0.2,0.61,6,5,0.2,Swing,,,,Thrown
+Hunting Knife,SmallBlade,1.2,0.6,0.61,0.9,50,2,Stab,0,,,CutPlant
+Hunting Knife (Thrown),SmallBlade,0.6,0.3,0.61,6,5,0.2,Swing,,,,Thrown
+Kitchen Knife,SmallBlade,0.7,0.3,0.61,0.9,25,2,Stab,0,,,CutPlant
+Kitchen Knife (Thrown),SmallBlade,0.3,0.1,0.61,5,5,0.2,Swing,,,,Thrown
+Crafted Spear,Improvised;Spear,1.5,1.0,0.98,1.4,30,2,Spear,0,,,FishingSpear
+Crafted Spear (Thrown),Spear,0.7,0.5,0.61,6,15,0.2,Bat,,,,Thrown;Spear
+Tactical Axe,Axe,1.6,0.7,0.61,1.1,15,3,Bat,2,,,ChopTree;CutPlant
+Tactical Axe (Thrown),Axe,0.8,0.3,0.61,5,5,0.2,Swing,,,,Thrown
+Garden Fork,Improvised;Spear,1.5,1.0,0.61,1.37,30,2,Spear,0,,,DigPlow
+Garden Fork (Thrown),Spear,0.7,0.5,0.61,5,15,0.2,Bat,,,,Thrown;Spear
+Empty Bleach Bottle,,0,0,,10,,1.5,Throw,,,,
+Fist Wraps,SmallBlunt,0.3,0.1,0.4,0.8,20,1,Bat,0,,,
+Brawling Wraps,SmallBlunt,0.3,0.1,0.4,0.8,25,1,Bat,0,,,
