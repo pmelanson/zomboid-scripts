@@ -1,117 +1,117 @@
-DisplayName,CanBeEquipped,Capacity,WeightReduction,RunSpeedModifier,clothingExtraSubmenu,BodyLocation,Weight
-Fanny Pack (Front CCW-22),FannyPackFront,2,0,0.97,FannyPack_WearFront,FannyPackFront,1
-Fanny Pack (Front CCW-380),FannyPackFront,2,0,0.97,FannyPack_WearFront,FannyPackFront,1
-Fanny Pack (Front CCW-9),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1
-Fanny Pack (Front CCW-357),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1
-Fanny Pack (Front CCW-45ss),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1
-Fanny Pack (Front CCW-45ds),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1
-Police Bag,Back,18,65,0.95,,,1
-Bugout Bag,Back,18,65,0.95,,,1
-M2A1 Fuel Tank,Back,-10,0,0.90,,,3
-Fanny Pack (Front),FannyPackFront,2,7,0.97,FannyPack_WearFront,FannyPackFront,1
-SRU-21/P Survival Vest,EHEPilotVest,3,,,,EHEPilotVest,
-Black SRU-21/P Survival Vest,EHEPilotVest,3,,,,EHEPilotVest,
-,EHEPilotVest,3,,,,EHEPilotVest,
-Black SRU-21/P Survival Vest,EHEPilotVest,3,,,,EHEPilotVest,
-9.11 Tactical Molle Backpack,Back,38,80,0.94,,,2
-ARVN Rucksack,Back,38,80,0.94,,,2
-Avon Protection ST53 SCBA Set,Back,38,80,0.94,,,2
-MSA Safety SCBA Set,Back,38,80,0.94,,,2
-Y-ZIP City Assault Backpack,Back,38,80,0.94,,,2
-SPOSN SSO Bober-M Assault Backpack,Back,38,80,0.94,,,2
-Savotta Jaakari S Backpack,Back,38,80,0.94,,,2
-Survival Bushcraft Backpack,Back,38,80,0.94,,,2
-Survival Bushcraft Backpack w/ Axe,Back,38,80,0.94,,,2
-AN/PRC-77 Radio Man Pack,Back,38,80,0.94,,,2
-Military Alice Backpack,Back,38,80,0.94,,,2
-Bushcraft Kitty Pack,Back,38,80,0.94,,,2
-Robbie the Rabbit Pack,Back,38,80,0.94,,,2
-Hazard 4 Dual Daypack,Back,38,80,0.94,,Tail,2
-Military Juggernaut Ammo Pack,Back,38,80,0.94,,Tail,2
-Elzbieta Bosak ELA's Tactical Backpack,Back,38,80,0.94,,Tail,2
-Meret Omni Pro EMS Response Bag,Back,38,80,0.94,,Tail,2
-KIP-5 Rebreather Pack,Back,38,80,0.94,,Tail,2
-Polish AP-3 SCBA Pack,Back,38,80,0.94,,Tail,2
-IP-46 Rebreather Pack,Back,38,80,0.94,,Tail,2
-Rick Grimes Shreiff Duffle Bag,Back,38,80,0.94,,Tail,2
-Trauma Duffle Bag,Back,38,80,0.94,,Tail,2
-Casual Duffle Bag,Back,38,80,0.94,,Tail,2
-Bushcraft Backpack Set,Back,38,80,0.94,,Tail,2
-It's Bread Bag,Back,38,80,0.94,,Tail,2
-It's Bread Sack,Back,38,80,0.94,,Tail,2
-Army Duffle Bag,Back,38,80,0.94,,Tail,2
-Stormtrooper Trench Raider Tornister Sets,Back,38,80,0.94,,Tail,2
-Lightweight Baker Style Tent Set (Pattern 1),Back,38,80,0.94,,Tail,2
-Lightweight Baker Style Tent Set (Pattern 2),Back,38,80,0.94,,Tail,2
-Lightweight Baker Style Tent Set (Pattern 3),Back,38,80,0.94,,Tail,2
-Lightweight Baker Style Tent Set (Pattern 4),Back,38,80,0.94,,Tail,2
-Lightweight Baker Style Tent Set (Pattern 5),Back,38,80,0.94,,Tail,2
-Lightweight Baker Style Tent Set (Pattern 6),Back,38,80,0.94,,Tail,2
-Hunter's Backpack,Back,38,80,0.94,,Tail,2
-Metro Hazard Oxygen Tank Carrier,Back,38,80,0.94,,Tail,2
-Swedish Multipurpose Carrier w/ Wooden Ammo Box,Back,38,80,0.94,,Tail,2
-Swedish Multipurpose Carrier w/ Metal Ammo Can,Back,38,80,0.94,,Tail,2
-Swedish Multipurpose Carrier w/ Carl Gustaf Ammunition Tubes,Back,38,80,0.94,,Tail,2
-Swedish Multipurpose Carrier w/ Food Box,Back,38,80,0.94,,Tail,2
-FT-817 Portable Ham Radio Backpack,Back,38,80,0.94,,Tail,2
-D3M Chest Rig (Front),FannyPackFront,8,90,0.94,Bag_D3M,Tail,1
-D3M Chest Rig (Back),FannyPackBack,8,90,0.94,Bag_D3M_Loose,Tail,1
-Blackhawk Commando Chest Harness (Front),FannyPackFront,8,90,0.94,Bag_Blackhawk,Tail,1
-Blackhawk Commando Chest Harness (Back),FannyPackBack,8,90,0.94,Bag_Blackhawk_Loose,Tail,1
-Military Combat Webbing Set (Front),FannyPackFront,8,90,0.94,Bag_X_Vest,Tail,1
-Military Combat Webbing Set (Back),FannyPackBack,8,90,0.94,Bag_X_Vest_Loose,Tail,1
-Chicom Type 56 Chest Rig (Front),FannyPackFront,8,90,0.94,Bag_SKS_Vest,Tail,1
-Chicom Type 56 Chest Rig (Back),FannyPackBack,8,90,0.94,Bag_SKS_Vest_Loose,Tail,1
-Chicom Type 81 Chest Rig (Front),FannyPackFront,8,90,0.94,Bag_AK_Vest,Tail,1
-Chicom Type 81 Chest Rig (Back),FannyPackBack,8,90,0.94,Bag_AK_Vest_Loose,Tail,1
-SPOSN Smersh Vest (Front),FannyPackFront,8,90,0.94,Rig_Smersh,Tail,1
-SPOSN Smersh Vest (Back),FannyPackBack,8,90,0.94,Rig_Smersh_Loose,Tail,1
-SPOSN Smersh Vest w/ AK Kit (Front),FannyPackFront,8,90,0.94,Rig_Smersh_A,Tail,1
-SPOSN Smersh Vest w/ AK Kit (Back),FannyPackBack,8,90,0.94,Rig_Smersh_A_Loose,Tail,1
-SPOSN Smersh Vest w/ PKM Kit (Front),FannyPackFront,8,90,0.94,Rig_Smersh_B,Tail,1
-SPOSN Smersh Vest w/ PKM Kit (Back),FannyPackBack,8,90,0.94,Rig_Smersh_B_Loose,Tail,1
-SPOSN Smersh Vest w/ SVD Kit (Front),FannyPackFront,8,90,0.94,Rig_Smersh_C,Tail,1
-SPOSN Smersh Vest w/ SVD Kit (Back),FannyPackBack,8,90,0.94,Rig_Smersh_C_Loose,Tail,1
-Elzbieta Bosak ELA's Gear Set (Front),FannyPackFront,8,90,0.94,Rig_ELA,Tail,1
-Elzbieta Bosak ELA's Gear Set (Back),FannyPackBack,8,90,0.94,Rig_ELA_Loose,Tail,1
-Patrol Radio Chest Harness Set (Front),FannyPackFront,8,90,0.94,Radio_Rig,Tail,1
-Patrol Radio Chest Harness Set (Back),FannyPackBack,8,90,0.94,Radio_Rig_Loose,Tail,1
-Shotgun Chest Rig Sets (Front),FannyPackFront,8,90,0.94,Shotgun_Rig,Tail,1
-Shotgun Chest Rig Sets (Back),FannyPackBack,8,90,0.94,Shotgun_Rig_Loose,Tail,1
-Fairwin Tactical Belt (Front),FannyPackFront,4,80,0.94,Tactical_Belt_WearFront,TorsoExtra,0.5
-Fairwin Tactical Belt (Back),FannyPackBack,4,80,0.94,Tactical_Belt_WearBack,TorsoExtra,0.5
-Police Duty Belt (Front),FannyPackFront,4,80,0.94,Duty_Belt_WearFront,TorsoExtra,0.5
-Police Duty Belt (Back),FannyPackBack,4,80,0.94,Duty_Belt_WearBack,TorsoExtra,0.5
-Cross Body Bag Bottle Holder (Front),FannyPackFront,8,90,0.94,Bottle_Bag,Tail,1
-Cross Body Bag Bottle Holder (Back),FannyPackBack,8,90,0.94,Bottle_Bag_Loose,Tail,1
-K-1 Gas Mask Carrying Pouch (Front),FannyPackFront,8,90,0.94,K1_Bag,Tail,1
-K-1 Gas Mask Carrying Pouch (Back),FannyPackBack,8,90,0.94,K1_Bag_Loose,Tail,1
-Mueller Omni Medi Kit Fanny Pack (Front),FannyPackFront,8,90,0.94,OMNI_Pouch,Tail,1
-Mueller Omni Medi Kit Fanny Pack (Back),FannyPackBack,8,90,0.94,OMNI_Pouch_Loose,Tail,1
-Ashe's Gear Pack (Front),FannyPackFront,8,90,0.94,Ashe_Gear,Tail,1
-Ashe's Gear Pack (Back),FannyPackBack,8,90,0.94,Ashe_Gear_Loose,Tail,1
-C420 PAPR Gear Pack (Front),FannyPackFront,8,90,0.94,C420_PAPR,Tail,1
-C420 PAPR Gear Pack (Back),FannyPackBack,8,90,0.94,C420_PAPR_Loose,Tail,1
-AR-15 Mag Drop Leg Pouch (Front),FannyPackFront,8,90,0.94,Belt_Pack_AR,Tail,1
-AR-15 Mag Drop Leg Pouch Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_AR_Loose,Tail,1
-Gas Mask Drop Leg Pouch (Front),FannyPackFront,8,90,0.94,Belt_Pack_Gas,Tail,1
-Gas Mask Drop Leg Pouch Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_Gas_Loose,Tail,1
-Utility Drop Leg Pouch (Front),FannyPackFront,8,90,0.94,Belt_Pack_Pouch,Tail,1
-Utility Drop Leg Pouch Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_Pouch_Loose,Tail,1
-Police Duty Gear (Front),FannyPackFront,8,90,0.94,Belt_Pack_Duty,Tail,1
-Police Duty Gear (Back),FannyPackBack,8,90,0.94,Belt_Pack_Duty_Loose,Tail,1
-AR Battle Belt Sets (Front),FannyPackFront,8,90,0.94,Belt_Pack_War,Tail,1
-AR Battle Belt Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_War_Loose,Tail,1
-Ars Arma D3CR Chest Rig Sets (Front),FannyPackFront,8,90,0.94,D3CR,Tail,1
-Ars Arma D3CR Chest Rig Sets (Back),FannyPackBack,8,90,0.94,D3CR_Loose,Tail,1
-GM15 Gas Mask Canister (Front),FannyPackFront,8,90,0.94,GM15_Canister,Tail,1
-GM15 Gas Mask Canister (Back),FannyPackBack,8,90,0.94,GM15_Canister_Loose,Tail,1
-Stormtrooper Trench Raider Ammo Pouch (Front),FannyPackFront,8,90,0.94,Trench_Ammo_Pack,Tail,1
-Stormtrooper Trench Raider Ammo Pouch (Back),FannyPackBack,8,90,0.94,Trench_Ammo_Pack_Loose,Tail,1
-Stormtrooper Trench Raider Grenade Pouch (Front),FannyPackFront,8,90,0.94,Trench_Grenade_Pack,Tail,1
-Stormtrooper Trench Raider Grenade Pouch (Back),FannyPackBack,8,90,0.94,Trench_Grenade_Pack_Loose,Tail,1
-Mess Kit Carrier SET A (Front),FannyPackFront,8,90,0.94,Messkit,Tail,1
-Mess Kit Carrier SET A (Back),FannyPackBack,8,90,0.94,Messkit_Loose,Tail,1
-Mess Kit Carrier SET B (Front),FannyPackFront,8,90,0.94,Messkit_B,Tail,1
-Mess Kit Carrier SET B (Back),FannyPackBack,8,90,0.94,Messkit_B_Loose,Tail,1
-Pink Backpack,Back,30,90,0.94,,,2
+DisplayName,CanBeEquipped,Capacity,WeightReduction,RunSpeedModifier,clothingExtraSubmenu,BodyLocation,Weight,FromMod
+Fanny Pack (Front CCW-22),FannyPackFront,2,0,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL(26)GunFighter[MOD 2.0]: GunFighter_Gun_Cases.txt
+Fanny Pack (Front CCW-380),FannyPackFront,2,0,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL(26)GunFighter[MOD 2.0]: GunFighter_Gun_Cases.txt
+Fanny Pack (Front CCW-9),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL(26)GunFighter[MOD 2.0]: GunFighter_Gun_Cases.txt
+Fanny Pack (Front CCW-357),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL(26)GunFighter[MOD 2.0]: GunFighter_Gun_Cases.txt
+Fanny Pack (Front CCW-45ss),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL(26)GunFighter[MOD 2.0]: GunFighter_Gun_Cases.txt
+Fanny Pack (Front CCW-45ds),FannyPackFront,3,0,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL(26)GunFighter[MOD 2.0]: GunFighter_Gun_Cases.txt
+Police Bag,Back,18,65,0.95,,,1,ARSENAL-26-GunFighter: GunFighter_Gun_Cases.txt
+Bugout Bag,Back,18,65,0.95,,,1,ARSENAL-26-GunFighter: GunFighter_Gun_Cases.txt
+M2A1 Fuel Tank,Back,-10,0,0.90,,,3,ARSENAL-26-GunFighter: Canister_M2A1.txt
+Fanny Pack (Front),FannyPackFront,2,7,0.97,FannyPack_WearFront,FannyPackFront,1,ARSENAL-26-GunFighter: GunFighter_Gun_Cases.txt
+SRU-21/P Survival Vest,EHEPilotVest,3,,,,EHEPilotVest,,Expanded Helicopter Events: Misc_EHE.txt
+Black SRU-21/P Survival Vest,EHEPilotVest,3,,,,EHEPilotVest,,Expanded Helicopter Events: Misc_EHE.txt
+,EHEPilotVest,3,,,,EHEPilotVest,,Expanded Helicopter Events: Mothballed_EHE.txt
+Black SRU-21/P Survival Vest,EHEPilotVest,3,,,,EHEPilotVest,,Expanded Helicopter Events: Mothballed_EHE.txt
+9.11 Tactical Molle Backpack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+ARVN Rucksack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Avon Protection ST53 SCBA Set,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+MSA Safety SCBA Set,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Y-ZIP City Assault Backpack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+SPOSN SSO Bober-M Assault Backpack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Savotta Jaakari S Backpack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Survival Bushcraft Backpack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Survival Bushcraft Backpack w/ Axe,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+AN/PRC-77 Radio Man Pack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Military Alice Backpack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Bushcraft Kitty Pack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Robbie the Rabbit Pack,Back,38,80,0.94,,,2,Brita's Armor Pack: Brita_Bags.txt
+Hazard 4 Dual Daypack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Military Juggernaut Ammo Pack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Elzbieta Bosak ELA's Tactical Backpack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Meret Omni Pro EMS Response Bag,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+KIP-5 Rebreather Pack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Polish AP-3 SCBA Pack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+IP-46 Rebreather Pack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Rick Grimes Shreiff Duffle Bag,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Trauma Duffle Bag,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Casual Duffle Bag,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Bushcraft Backpack Set,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+It's Bread Bag,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+It's Bread Sack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Army Duffle Bag,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Stormtrooper Trench Raider Tornister Sets,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Lightweight Baker Style Tent Set (Pattern 1),Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Lightweight Baker Style Tent Set (Pattern 2),Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Lightweight Baker Style Tent Set (Pattern 3),Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Lightweight Baker Style Tent Set (Pattern 4),Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Lightweight Baker Style Tent Set (Pattern 5),Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Lightweight Baker Style Tent Set (Pattern 6),Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Hunter's Backpack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Metro Hazard Oxygen Tank Carrier,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Swedish Multipurpose Carrier w/ Wooden Ammo Box,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Swedish Multipurpose Carrier w/ Metal Ammo Can,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Swedish Multipurpose Carrier w/ Carl Gustaf Ammunition Tubes,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+Swedish Multipurpose Carrier w/ Food Box,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+FT-817 Portable Ham Radio Backpack,Back,38,80,0.94,,Tail,2,Brita's Armor Pack: Brita_Bags.txt
+D3M Chest Rig (Front),FannyPackFront,8,90,0.94,Bag_D3M,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+D3M Chest Rig (Back),FannyPackBack,8,90,0.94,Bag_D3M_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Blackhawk Commando Chest Harness (Front),FannyPackFront,8,90,0.94,Bag_Blackhawk,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Blackhawk Commando Chest Harness (Back),FannyPackBack,8,90,0.94,Bag_Blackhawk_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Military Combat Webbing Set (Front),FannyPackFront,8,90,0.94,Bag_X_Vest,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Military Combat Webbing Set (Back),FannyPackBack,8,90,0.94,Bag_X_Vest_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Chicom Type 56 Chest Rig (Front),FannyPackFront,8,90,0.94,Bag_SKS_Vest,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Chicom Type 56 Chest Rig (Back),FannyPackBack,8,90,0.94,Bag_SKS_Vest_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Chicom Type 81 Chest Rig (Front),FannyPackFront,8,90,0.94,Bag_AK_Vest,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Chicom Type 81 Chest Rig (Back),FannyPackBack,8,90,0.94,Bag_AK_Vest_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest (Front),FannyPackFront,8,90,0.94,Rig_Smersh,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest (Back),FannyPackBack,8,90,0.94,Rig_Smersh_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest w/ AK Kit (Front),FannyPackFront,8,90,0.94,Rig_Smersh_A,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest w/ AK Kit (Back),FannyPackBack,8,90,0.94,Rig_Smersh_A_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest w/ PKM Kit (Front),FannyPackFront,8,90,0.94,Rig_Smersh_B,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest w/ PKM Kit (Back),FannyPackBack,8,90,0.94,Rig_Smersh_B_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest w/ SVD Kit (Front),FannyPackFront,8,90,0.94,Rig_Smersh_C,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+SPOSN Smersh Vest w/ SVD Kit (Back),FannyPackBack,8,90,0.94,Rig_Smersh_C_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Elzbieta Bosak ELA's Gear Set (Front),FannyPackFront,8,90,0.94,Rig_ELA,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Elzbieta Bosak ELA's Gear Set (Back),FannyPackBack,8,90,0.94,Rig_ELA_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Patrol Radio Chest Harness Set (Front),FannyPackFront,8,90,0.94,Radio_Rig,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Patrol Radio Chest Harness Set (Back),FannyPackBack,8,90,0.94,Radio_Rig_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Shotgun Chest Rig Sets (Front),FannyPackFront,8,90,0.94,Shotgun_Rig,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Shotgun Chest Rig Sets (Back),FannyPackBack,8,90,0.94,Shotgun_Rig_Loose,Tail,1,Brita's Armor Pack: Brita_Chest_Rig.txt
+Fairwin Tactical Belt (Front),FannyPackFront,4,80,0.94,Tactical_Belt_WearFront,TorsoExtra,0.5,Brita's Armor Pack: Brita_Side_Bag.txt
+Fairwin Tactical Belt (Back),FannyPackBack,4,80,0.94,Tactical_Belt_WearBack,TorsoExtra,0.5,Brita's Armor Pack: Brita_Side_Bag.txt
+Police Duty Belt (Front),FannyPackFront,4,80,0.94,Duty_Belt_WearFront,TorsoExtra,0.5,Brita's Armor Pack: Brita_Side_Bag.txt
+Police Duty Belt (Back),FannyPackBack,4,80,0.94,Duty_Belt_WearBack,TorsoExtra,0.5,Brita's Armor Pack: Brita_Side_Bag.txt
+Cross Body Bag Bottle Holder (Front),FannyPackFront,8,90,0.94,Bottle_Bag,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Cross Body Bag Bottle Holder (Back),FannyPackBack,8,90,0.94,Bottle_Bag_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+K-1 Gas Mask Carrying Pouch (Front),FannyPackFront,8,90,0.94,K1_Bag,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+K-1 Gas Mask Carrying Pouch (Back),FannyPackBack,8,90,0.94,K1_Bag_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Mueller Omni Medi Kit Fanny Pack (Front),FannyPackFront,8,90,0.94,OMNI_Pouch,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Mueller Omni Medi Kit Fanny Pack (Back),FannyPackBack,8,90,0.94,OMNI_Pouch_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Ashe's Gear Pack (Front),FannyPackFront,8,90,0.94,Ashe_Gear,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Ashe's Gear Pack (Back),FannyPackBack,8,90,0.94,Ashe_Gear_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+C420 PAPR Gear Pack (Front),FannyPackFront,8,90,0.94,C420_PAPR,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+C420 PAPR Gear Pack (Back),FannyPackBack,8,90,0.94,C420_PAPR_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+AR-15 Mag Drop Leg Pouch (Front),FannyPackFront,8,90,0.94,Belt_Pack_AR,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+AR-15 Mag Drop Leg Pouch Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_AR_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Gas Mask Drop Leg Pouch (Front),FannyPackFront,8,90,0.94,Belt_Pack_Gas,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Gas Mask Drop Leg Pouch Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_Gas_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Utility Drop Leg Pouch (Front),FannyPackFront,8,90,0.94,Belt_Pack_Pouch,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Utility Drop Leg Pouch Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_Pouch_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Police Duty Gear (Front),FannyPackFront,8,90,0.94,Belt_Pack_Duty,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Police Duty Gear (Back),FannyPackBack,8,90,0.94,Belt_Pack_Duty_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+AR Battle Belt Sets (Front),FannyPackFront,8,90,0.94,Belt_Pack_War,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+AR Battle Belt Sets (Back),FannyPackBack,8,90,0.94,Belt_Pack_War_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Ars Arma D3CR Chest Rig Sets (Front),FannyPackFront,8,90,0.94,D3CR,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Ars Arma D3CR Chest Rig Sets (Back),FannyPackBack,8,90,0.94,D3CR_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+GM15 Gas Mask Canister (Front),FannyPackFront,8,90,0.94,GM15_Canister,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+GM15 Gas Mask Canister (Back),FannyPackBack,8,90,0.94,GM15_Canister_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Stormtrooper Trench Raider Ammo Pouch (Front),FannyPackFront,8,90,0.94,Trench_Ammo_Pack,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Stormtrooper Trench Raider Ammo Pouch (Back),FannyPackBack,8,90,0.94,Trench_Ammo_Pack_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Stormtrooper Trench Raider Grenade Pouch (Front),FannyPackFront,8,90,0.94,Trench_Grenade_Pack,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Stormtrooper Trench Raider Grenade Pouch (Back),FannyPackBack,8,90,0.94,Trench_Grenade_Pack_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Mess Kit Carrier SET A (Front),FannyPackFront,8,90,0.94,Messkit,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Mess Kit Carrier SET A (Back),FannyPackBack,8,90,0.94,Messkit_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Mess Kit Carrier SET B (Front),FannyPackFront,8,90,0.94,Messkit_B,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Mess Kit Carrier SET B (Back),FannyPackBack,8,90,0.94,Messkit_B_Loose,Tail,1,Brita's Armor Pack: Brita_Side_Bag.txt
+Pink Backpack,Back,30,90,0.94,,,2,NoirsAttachments: NATT_Extras.txt
