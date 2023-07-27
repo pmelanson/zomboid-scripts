@@ -72,6 +72,7 @@ Tactical Axe,Axe,1.6,0.7,0.61,1.1,15,3,Bat,2,,ChopTree;CutPlant,ARSENAL-26-GunFi
 Tactical Axe (Thrown),Axe,0.8,0.3,0.61,5,5,0.2,Swing,,,Thrown,ARSENAL-26-GunFighter: THROWN.txt
 Garden Fork,Improvised;Spear,1.5,1.0,0.61,1.37,30,2,Spear,0,,DigPlow,ARSENAL-26-GunFighter: THROWN.txt
 Garden Fork (Thrown),Spear,0.7,0.5,0.61,5,15,0.2,Bat,,,Thrown;Spear,ARSENAL-26-GunFighter: THROWN.txt
-Empty Bleach Bottle,,0,0,0,10,,1.5,Throw,,,,BravensThrowables: BThrowables_Items.txt
+Rubber Duck,,0,0,0,10,,1.5,Throw,,,,BravensThrowables: BThrowables_Items.txt
 Fist Wraps,SmallBlunt,0.3,0.1,0.4,0.8,20,1,Bat,0,,,DonazosFisticuffs: fist.txt
 Brawling Wraps,SmallBlunt,0.3,0.1,0.4,0.8,25,1,Bat,0,,,DonazosFisticuffs: fist.txt
+Masters Wraps,SmallBlunt,0.4,0.2,0.4,0.8,33,1,Bat,0,,,DonazosFisticuffs: fist.txt

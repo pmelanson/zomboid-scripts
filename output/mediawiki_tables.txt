@@ -1038,7 +1038,7 @@
 | Thrown;Spear
 | ARSENAL-26-GunFighter: THROWN.txt
 |-
-| Empty Bleach Bottle
+| Rubber Duck
 | 
 | style="text-align:right"| 0.0
 | style="text-align:right"| 0.0
@@ -1073,6 +1073,20 @@
 | style="text-align:right"| 0.40
 | style="text-align:right"| 0.80
 | style="text-align:right"| 25
+| style="text-align:right"| 1.0
+| Bat
+| style="text-align:right"| 0
+| 
+| 
+| DonazosFisticuffs: fist.txt
+|-
+| Masters Wraps
+| SmallBlunt
+| style="text-align:right"| 0.4
+| style="text-align:right"| 0.2
+| style="text-align:right"| 0.40
+| style="text-align:right"| 0.80
+| style="text-align:right"| 33
 | style="text-align:right"| 1.0
 | Bat
 | style="text-align:right"| 0
